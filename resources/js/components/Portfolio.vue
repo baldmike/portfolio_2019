@@ -44,7 +44,7 @@
         </b-col>
         
         <b-col cols="12" sm="3">
-          <button class="gmap button" id="projectsButton" @click="$bvModal.show('gmapModal')"></button>
+          <button class="gmap button" @click="$bvModal.show('gmapModal')"></button>
         </b-col>
         
         <b-col cols="12" sm="3">
@@ -189,9 +189,9 @@ export default {
   font-family: 'Raleway', sans-serif;
 }
 
-/* @media only screen and (min-width: 800px) { */
+  /* @media only screen and (min-width: 800px) { */
   
-  /* .about:hover::after { 
+  .about:hover::after { 
     content: " - Who is Bald Mike?";
   }
 
@@ -205,7 +205,7 @@ export default {
 
   #contact:hover::after { 
     content: " - Get in touch with Bald Mike!";
-  } */
+  }
 
 h3 {
   margin: 40px 0 0;
@@ -261,18 +261,27 @@ a {
   background-color: black;
   color: cornflowerblue;
   transition: 800ms;
-  text-decoration: none;
+  outline: none;
 }
 
 .button:hover {
   color: black;
   background-color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: 800ms;
 }
 
 .regroup {
   background-image: url("/images/regroup.png");
 }
 
+.regroup:hover:after {
+  background-image: url('');
+  background-color: white;
+
+}
 .roo {
   background-image: url("/images/llr_logo.png");
 }
