@@ -97,9 +97,9 @@
     <a href="https://icons8.com">Icons by Icons8</a>
 
     <!-- Roo Modal -->
-    <b-modal id="aboutModal" title="Who is Bald Mike" hide-footer no-close-on-backdrop>
-      <p class="my-4">Using nothing more than my fingers, I'm able to make computers do pretty much anything I want them to.</p>
-      
+    <b-modal id="aboutModal" title="Who is Bald Mike?" hide-footer no-close-on-backdrop>
+      <p class="my-4">Dog-lovin, bath-takin', rights-insisting, justice-demanding, truth-seeking bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times.</p>
+      <p class="my-4">I'm also a pretty nimble PHP/Laravel and JavaScript/Vue.js web developer who delivers, on time. I'm fluent in Git, and equally comfortable on either "end." I've deployed to AWS and Digital Ocean, and I'd rather SSH into my server than use a GUI. I've designed, architected, developed, deployed and maintained in PHP, Python, C# and the MEAN stack. JavaScript pairs well with everything.</p>
     </b-modal>
 
 

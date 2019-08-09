@@ -65911,7 +65911,7 @@ var render = function() {
         {
           attrs: {
             id: "aboutModal",
-            title: "Who is Bald Mike",
+            title: "Who is Bald Mike?",
             "hide-footer": "",
             "no-close-on-backdrop": ""
           }
@@ -65919,7 +65919,13 @@ var render = function() {
         [
           _c("p", { staticClass: "my-4" }, [
             _vm._v(
-              "Using nothing more than my fingers, I'm able to make computers do pretty much anything I want them to."
+              "Dog-lovin, bath-takin', rights-insisting, justice-demanding, truth-seeking bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "my-4" }, [
+            _vm._v(
+              "I'm also a pretty nimble PHP/Laravel and JavaScript/Vue.js web developer who delivers, on time. I'm fluent in Git, and equally comfortable on either \"end.\" I've deployed to AWS and Digital Ocean, and I'd rather SSH into my server than use a GUI. I've designed, architected, developed, deployed and maintained in PHP, Python, C# and the MEAN stack. JavaScript pairs well with everything."
             )
           ])
         ]
