@@ -3,15 +3,15 @@
     
     <div class="parallax parapic1 no-phone" id="top">
       <div class="headline">
-        <p>HELLO, I'M BALD MIKE.</p>
-        <p>I DEVELOP WEB APPLICATIONS.</p>
+        <p>BALD MIKE</p>
+        <p>COMPUTER BEHAVIORIST</p>
       </div>
     </div>
 
     <div class="white-bar" id="nav">
       <b-row>
         <b-col cols="12" sm="3">
-          <button class="about button" @click="goto('aboutSection')">ABOUT</button>
+          <button class="about button" @click="$bvModal.show('aboutModal')">ABOUT</button>
         </b-col>
         
         <b-col cols="12" sm="3">
@@ -27,8 +27,6 @@
         </b-col>
       </b-row>
     </div>
-
-    <button style="margin-bottom: 20px;" variant="outline-secondary" @click="upTop">BACK TO THE TOP</button>
     
 
     <div class="parallax parapic2" id="aboutSection"></div>
@@ -40,30 +38,28 @@
       </div>
     </div>
     <div class="white-bar" id="projects">
-      <div>
-        <div cols="12" sm="3">
+      <b-row>
+        <b-col cols="12" sm="3">
           <button @click="$bvModal.show('rooModal')" id="rooButton" class="roo button"></button>
-        </div>
+        </b-col>
         
-        <div cols="12" sm="3">
+        <b-col cols="12" sm="3">
           <button class="gmap button" id="projectsButton" @click="$bvModal.show('gmapModal')"></button>
-        </div>
+        </b-col>
         
-        <div cols="12" sm="3">
+        <b-col cols="12" sm="3">
           <button class="regroup button" id="regroupButton" @click="$bvModal.show('regroupModal')"></button>
-        </div>
+        </b-col>
 
-        <div cols="12" sm="3">
+        <b-col cols="12" sm="3">
           <button class="contact button" @click="goto('contactSection')" id="contact">CONTACT</button>
-        </div>
-      </div>
+        </b-col>
+      </b-row>
     </div>
-
-    <button style="margin-bottom: 20px;" variant="outline-secondary" @click="upTop">BACK TO THE TOP</button>
 
     <div class="parallax parapic3"></div>
 
-    <div class="white-bar" id="contactSection">
+    
       <div>
         <div>
           <div class="shout">
@@ -71,35 +67,40 @@
           </div>
           
         </div>
-        
-      </div>
-      <div>
-        <div cols="12" sm="3">
-          <a href="mailto:baldmike312@gmail.com"><button class="email button">EMAIL</button></a>
-        </div>
+      <div class="white-bar" id="contactSection">    
+      
+      <b-row>
+        <b-col cols="12" sm="3">
+          <a href="mailto:baldmike312@gmail.com"><button class="email button"><img src="/images/icons8-email-96.png"></button></a>
+        </b-col>
 
-        <div cols="12" sm="3">
-          <a href="https://www.linkedin.com/in/baldmike/" target="_blank"><button class="contact button">LINKEDIN</button></a>
-        </div>
+        <b-col cols="12" sm="3">
+          <a href="https://www.linkedin.com/in/baldmike/" target="_blank"><button class="contact button"><img src="/images/icons8-linkedin-96.png"></button></a>
+        </b-col>
         
-        <div cols="12" sm="3">
-          <a href="https://www.twitter.com/baldmikesays" target="_blank"><button id="twitterButton" class="button">TWITTER</button></a>
-        </div>
+        <b-col cols="12" sm="3">
+          <a href="https://www.twitter.com/baldmikesays" target="_blank"><button id="twitterButton" class="button"><img src="/images/icons8-twitter-96.png"></button></a>
+        </b-col>
 
-        <div cols="12" sm="3">
-          <a href="https://www.github.com/baldmike" target="_blank"><button class="button">GITHUB</button></a>
-        </div>      
+        <b-col cols="12" sm="3">
+          <a href="https://www.github.com/baldmike" target="_blank"><button class="button"><img src="/images/icons8-github-96.png"></button></a>
+        </b-col>      
+      </b-row>
       </div>
     </div>
 
-    <button style="margin-bottom: 20px;" variant="outline-secondary" @click="upTop">BACK TO THE TOP</button>
-
-    <div class="copyright">
+    <div class="copyright" style="text-align: center">
       &copy; {{year}}
       <a href="https://github.com/baldmike" target="_blank">Bald Mike</a>
     </div>
 
+    <a href="https://icons8.com">Icons by Icons8</a>
 
+    <!-- Roo Modal -->
+    <b-modal id="aboutModal" title="Who is Bald Mike" hide-footer no-close-on-backdrop>
+      <p class="my-4">Using nothing more than my fingers, I'm able to make computers do pretty much anything I want them to.</p>
+      
+    </b-modal>
 
 
 
@@ -188,22 +189,9 @@ export default {
   font-family: 'Raleway', sans-serif;
 }
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (min-width: 800px) { */
   
-  .button {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin: 0px 0px;
-  background-size: 200px;
-  background-repeat: no-repeat;
-  background-color: white;
-  color: cornflowerblue;
-  transition: 800ms;
-  text-decoration: none;
-}
-
- .about:hover::after { 
+  /* .about:hover::after { 
     content: " - Who is Bald Mike?";
   }
 
@@ -217,10 +205,7 @@ export default {
 
   #contact:hover::after { 
     content: " - Get in touch with Bald Mike!";
-  }
-}
-
-@media only screen and (min-width: 500px) {
+  } */
 
 h3 {
   margin: 40px 0 0;
@@ -238,6 +223,7 @@ a {
 }
 
 .parallax {
+  margin-top: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -262,26 +248,25 @@ a {
 
 .white-bar { 
   background-color: white;
-  min-height: 500px;
   text-align: center;
 }
 
 .button {
-  width: 100%;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
-  margin: 150px 0px;
+  margin: 20px 0px;
   background-size: 200px;
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: black;
   color: cornflowerblue;
   transition: 800ms;
   text-decoration: none;
 }
 
 .button:hover {
-  background-color: blue;
-  transition: 800ms;
+  color: black;
+  background-color: white;
 }
 
 .regroup {
@@ -312,7 +297,7 @@ a {
 
 @keyframes slide {
     from {top: 800px;}
-    to {top: 200px;}
+    to {top: 180px;}
   }
 
 .shout {
@@ -328,6 +313,5 @@ a {
 
 .rotate {
   transform: rotate(90)
-}
 }
 </style>

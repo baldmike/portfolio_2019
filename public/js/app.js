@@ -2012,6 +2012,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Portfolio',
   data: function data() {
@@ -33530,7 +33531,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-55e6c8e6] {\n  font-family: 'Raleway', sans-serif;\n}\n@media only screen and (max-width: 500px) {\n.button[data-v-55e6c8e6] {\n  width: 300px;\n  height: 300px;\n  border-radius: 50%;\n  margin: 0px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: white;\n  color: cornflowerblue;\n  transition: 800ms;\n  text-decoration: none;\n}\n.about[data-v-55e6c8e6]:hover::after { \n    content: \" - Who is Bald Mike?\";\n}\n#projectsButton[data-v-55e6c8e6]:hover::after { \n    content: \" - Examples of recent work.\";\n}\n#github-desc[data-v-55e6c8e6]:hover::after { \n    content: \" - Show me the code!\";\n}\n#contact[data-v-55e6c8e6]:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n}\n}\n@media only screen and (min-width: 500px) {\nh3[data-v-55e6c8e6] {\n  margin: 40px 0 0;\n}\nul[data-v-55e6c8e6] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-55e6c8e6] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-55e6c8e6] {\n  color: #42b983;\n}\n.parallax[data-v-55e6c8e6] {\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-55e6c8e6] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-55e6c8e6] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-55e6c8e6] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.white-bar[data-v-55e6c8e6] { \n  background-color: white;\n  min-height: 500px;\n  text-align: center;\n}\n.button[data-v-55e6c8e6] {\n  width: 100%;\n  height: 100px;\n  border-radius: 50%;\n  margin: 150px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: white;\n  color: cornflowerblue;\n  transition: 800ms;\n  text-decoration: none;\n}\n.button[data-v-55e6c8e6]:hover {\n  background-color: blue;\n  transition: 800ms;\n}\n.regroup[data-v-55e6c8e6] {\n  background-image: url(\"/images/regroup.png\");\n}\n.roo[data-v-55e6c8e6] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-55e6c8e6] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-55e6c8e6] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-55e6c8e6;\n          animation-name: slide-data-v-55e6c8e6;\n  -webkit-animation-duration: 5s;\n          animation-duration: 5s;\n}\n@-webkit-keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 200px;}\n}\n@keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 200px;}\n}\n.shout[data-v-55e6c8e6] {\n  margin-top: 40px;\n}\n.copyright[data-v-55e6c8e6] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.rotate[data-v-55e6c8e6] {\n  transform: rotate(90)\n}\n}\n", ""]);
+exports.push([module.i, "\n*[data-v-55e6c8e6] {\n  font-family: 'Raleway', sans-serif;\n}\n\n/* @media only screen and (min-width: 800px) { */\n  \n  /* .about:hover::after { \n    content: \" - Who is Bald Mike?\";\n  }\n\n  #projectsButton:hover::after { \n    content: \" - Examples of recent work.\";\n  }\n\n  #github-desc:hover::after { \n    content: \" - Show me the code!\";\n  }\n\n  #contact:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n  } */\nh3[data-v-55e6c8e6] {\n  margin: 40px 0 0;\n}\nul[data-v-55e6c8e6] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-55e6c8e6] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-55e6c8e6] {\n  color: #42b983;\n}\n.parallax[data-v-55e6c8e6] {\n  margin-top: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-55e6c8e6] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-55e6c8e6] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-55e6c8e6] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.white-bar[data-v-55e6c8e6] { \n  background-color: white;\n  text-align: center;\n}\n.button[data-v-55e6c8e6] {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: black;\n  color: cornflowerblue;\n  transition: 800ms;\n  text-decoration: none;\n}\n.button[data-v-55e6c8e6]:hover {\n  color: black;\n  background-color: white;\n}\n.regroup[data-v-55e6c8e6] {\n  background-image: url(\"/images/regroup.png\");\n}\n.roo[data-v-55e6c8e6] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-55e6c8e6] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-55e6c8e6] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-55e6c8e6;\n          animation-name: slide-data-v-55e6c8e6;\n  -webkit-animation-duration: 5s;\n          animation-duration: 5s;\n}\n@-webkit-keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n@keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n.shout[data-v-55e6c8e6] {\n  margin-top: 40px;\n}\n.copyright[data-v-55e6c8e6] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.rotate[data-v-55e6c8e6] {\n  transform: rotate(90)\n}\n", ""]);
 
 // exports
 
@@ -65654,7 +65655,7 @@ var render = function() {
                     staticClass: "about button",
                     on: {
                       click: function($event) {
-                        return _vm.goto("aboutSection")
+                        return _vm.$bvModal.show("aboutModal")
                       }
                     }
                   },
@@ -65722,16 +65723,6 @@ var render = function() {
         1
       ),
       _vm._v(" "),
-      _c(
-        "button",
-        {
-          staticStyle: { "margin-bottom": "20px" },
-          attrs: { variant: "outline-secondary" },
-          on: { click: _vm.upTop }
-        },
-        [_vm._v("BACK TO THE TOP")]
-      ),
-      _vm._v(" "),
       _c("div", {
         staticClass: "parallax parapic2",
         attrs: { id: "aboutSection" }
@@ -65739,94 +65730,201 @@ var render = function() {
       _vm._v(" "),
       _vm._m(1),
       _vm._v(" "),
-      _c("div", { staticClass: "white-bar", attrs: { id: "projects" } }, [
-        _c("div", [
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c("button", {
-              staticClass: "roo button",
-              attrs: { id: "rooButton" },
-              on: {
-                click: function($event) {
-                  return _vm.$bvModal.show("rooModal")
-                }
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c("button", {
-              staticClass: "gmap button",
-              attrs: { id: "projectsButton" },
-              on: {
-                click: function($event) {
-                  return _vm.$bvModal.show("gmapModal")
-                }
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c("button", {
-              staticClass: "regroup button",
-              attrs: { id: "regroupButton" },
-              on: {
-                click: function($event) {
-                  return _vm.$bvModal.show("regroupModal")
-                }
-              }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c(
-              "button",
-              {
-                staticClass: "contact button",
-                attrs: { id: "contact" },
-                on: {
-                  click: function($event) {
-                    return _vm.goto("contactSection")
-                  }
-                }
-              },
-              [_vm._v("CONTACT")]
-            )
-          ])
-        ])
-      ]),
-      _vm._v(" "),
       _c(
-        "button",
-        {
-          staticStyle: { "margin-bottom": "20px" },
-          attrs: { variant: "outline-secondary" },
-          on: { click: _vm.upTop }
-        },
-        [_vm._v("BACK TO THE TOP")]
+        "div",
+        { staticClass: "white-bar", attrs: { id: "projects" } },
+        [
+          _c(
+            "b-row",
+            [
+              _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                _c("button", {
+                  staticClass: "roo button",
+                  attrs: { id: "rooButton" },
+                  on: {
+                    click: function($event) {
+                      return _vm.$bvModal.show("rooModal")
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                _c("button", {
+                  staticClass: "gmap button",
+                  attrs: { id: "projectsButton" },
+                  on: {
+                    click: function($event) {
+                      return _vm.$bvModal.show("gmapModal")
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                _c("button", {
+                  staticClass: "regroup button",
+                  attrs: { id: "regroupButton" },
+                  on: {
+                    click: function($event) {
+                      return _vm.$bvModal.show("regroupModal")
+                    }
+                  }
+                })
+              ]),
+              _vm._v(" "),
+              _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "contact button",
+                    attrs: { id: "contact" },
+                    on: {
+                      click: function($event) {
+                        return _vm.goto("contactSection")
+                      }
+                    }
+                  },
+                  [_vm._v("CONTACT")]
+                )
+              ])
+            ],
+            1
+          )
+        ],
+        1
       ),
       _vm._v(" "),
       _c("div", { staticClass: "parallax parapic3" }),
       _vm._v(" "),
-      _vm._m(2),
-      _vm._v(" "),
-      _c(
-        "button",
-        {
-          staticStyle: { "margin-bottom": "20px" },
-          attrs: { variant: "outline-secondary" },
-          on: { click: _vm.upTop }
-        },
-        [_vm._v("BACK TO THE TOP")]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "copyright" }, [
-        _vm._v("\n      © " + _vm._s(_vm.year) + "\n      "),
+      _c("div", [
+        _vm._m(2),
+        _vm._v(" "),
         _c(
-          "a",
-          { attrs: { href: "https://github.com/baldmike", target: "_blank" } },
-          [_vm._v("Bald Mike")]
+          "div",
+          { staticClass: "white-bar", attrs: { id: "contactSection" } },
+          [
+            _c(
+              "b-row",
+              [
+                _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                  _c("a", { attrs: { href: "mailto:baldmike312@gmail.com" } }, [
+                    _c("button", { staticClass: "email button" }, [
+                      _c("img", {
+                        attrs: { src: "/images/icons8-email-96.png" }
+                      })
+                    ])
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.linkedin.com/in/baldmike/",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("button", { staticClass: "contact button" }, [
+                        _c("img", {
+                          attrs: { src: "/images/icons8-linkedin-96.png" }
+                        })
+                      ])
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.twitter.com/baldmikesays",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "button",
+                          attrs: { id: "twitterButton" }
+                        },
+                        [
+                          _c("img", {
+                            attrs: { src: "/images/icons8-twitter-96.png" }
+                          })
+                        ]
+                      )
+                    ]
+                  )
+                ]),
+                _vm._v(" "),
+                _c("b-col", { attrs: { cols: "12", sm: "3" } }, [
+                  _c(
+                    "a",
+                    {
+                      attrs: {
+                        href: "https://www.github.com/baldmike",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("button", { staticClass: "button" }, [
+                        _c("img", {
+                          attrs: { src: "/images/icons8-github-96.png" }
+                        })
+                      ])
+                    ]
+                  )
+                ])
+              ],
+              1
+            )
+          ],
+          1
         )
       ]),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "copyright", staticStyle: { "text-align": "center" } },
+        [
+          _vm._v("\n      © " + _vm._s(_vm.year) + "\n      "),
+          _c(
+            "a",
+            {
+              attrs: { href: "https://github.com/baldmike", target: "_blank" }
+            },
+            [_vm._v("Bald Mike")]
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("a", { attrs: { href: "https://icons8.com" } }, [
+        _vm._v("Icons by Icons8")
+      ]),
+      _vm._v(" "),
+      _c(
+        "b-modal",
+        {
+          attrs: {
+            id: "aboutModal",
+            title: "Who is Bald Mike",
+            "hide-footer": "",
+            "no-close-on-backdrop": ""
+          }
+        },
+        [
+          _c("p", { staticClass: "my-4" }, [
+            _vm._v(
+              "Using nothing more than my fingers, I'm able to make computers do pretty much anything I want them to."
+            )
+          ])
+        ]
+      ),
       _vm._v(" "),
       _c(
         "b-modal",
@@ -65996,9 +66094,9 @@ var staticRenderFns = [
       { staticClass: "parallax parapic1 no-phone", attrs: { id: "top" } },
       [
         _c("div", { staticClass: "headline" }, [
-          _c("p", [_vm._v("HELLO, I'M BALD MIKE.")]),
+          _c("p", [_vm._v("BALD MIKE")]),
           _vm._v(" "),
-          _c("p", [_vm._v("I DEVELOP WEB APPLICATIONS.")])
+          _c("p", [_vm._v("COMPUTER BEHAVIORIST")])
         ])
       ]
     )
@@ -66017,76 +66115,11 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "white-bar", attrs: { id: "contactSection" } },
-      [
-        _c("div", [
-          _c("div", [
-            _c("div", { staticClass: "shout" }, [
-              _c("h1", [_vm._v("CONTACT BALD MIKE")])
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c("div", [
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c("a", { attrs: { href: "mailto:baldmike312@gmail.com" } }, [
-              _c("button", { staticClass: "email button" }, [_vm._v("EMAIL")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href: "https://www.linkedin.com/in/baldmike/",
-                  target: "_blank"
-                }
-              },
-              [
-                _c("button", { staticClass: "contact button" }, [
-                  _vm._v("LINKEDIN")
-                ])
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href: "https://www.twitter.com/baldmikesays",
-                  target: "_blank"
-                }
-              },
-              [
-                _c(
-                  "button",
-                  { staticClass: "button", attrs: { id: "twitterButton" } },
-                  [_vm._v("TWITTER")]
-                )
-              ]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { attrs: { cols: "12", sm: "3" } }, [
-            _c(
-              "a",
-              {
-                attrs: {
-                  href: "https://www.github.com/baldmike",
-                  target: "_blank"
-                }
-              },
-              [_c("button", { staticClass: "button" }, [_vm._v("GITHUB")])]
-            )
-          ])
-        ])
-      ]
-    )
+    return _c("div", [
+      _c("div", { staticClass: "shout" }, [
+        _c("h1", [_vm._v("CONTACT BALD MIKE")])
+      ])
+    ])
   }
 ]
 render._withStripped = true
