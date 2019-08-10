@@ -8,6 +8,10 @@
       </div>
     </div>
 
+    <div class="credit">
+      <p style="font-size: .6rem;">Photo by Ales Nesetril on Unsplash</p>
+    </div>
+
     <div class="white-bar" id="nav">
       <b-row>
         <b-col cols="12" sm="3">
@@ -37,6 +41,7 @@
         </div>
       </div>
     </div>
+
     <div class="white-bar" id="projects">
       <b-row>
         <b-col cols="12" sm="3">
@@ -58,6 +63,11 @@
     </div>
 
     <div class="parallax parapic4" id="testimonySection"></div>
+
+    <div class="credit">
+      <p style="font-size: .6rem;">Photo by Dean Brierley on Unsplash</p>
+    </div>
+
     <div class="testimony-box">
       <p>"Mike came along at a time when we were having major website issues, causing many frustrated users to not be able to successfully donate or apply. I was so sick of dealing with people that never responded or could not fix our issues. Mike came swooping in and fixed all of our issues, made our site uber user-friendly, and built a gorgeous, informative brand new webapp."</p>
 
@@ -240,7 +250,6 @@ a {
   margin-top: -60px;
   height: auto;
   max-width: 100%;
-
 }
 
 .parapic2 {
@@ -335,5 +344,12 @@ a {
   padding: 100px;
   margin: 20px;
   font-size: 1.4rem;
+}
+
+.credit {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 </style>
