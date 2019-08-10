@@ -59,7 +59,7 @@
 
     <div class="parallax parapic4" id="testimonySection"></div>
     <div class="testimony-box">
-      <p>"Mike came along at a time when we were having major website issues, causing many frustrated users to not be able to successfully donate or apply. I was so sick of dealing with people that never responded or could not fix our issues. Mike came swooping in and fixed all of our issues, made our site uber user-friendly, and built a gorgeous, informative brand new one-stop-shop webapp."</p>
+      <p>"Mike came along at a time when we were having major website issues, causing many frustrated users to not be able to successfully donate or apply. I was so sick of dealing with people that never responded or could not fix our issues. Mike came swooping in and fixed all of our issues, made our site uber user-friendly, and built a gorgeous, informative brand new webapp."</p>
 
       <p>Sarah Lauch, Founder, The Live Like Roo Foundation</p>
     </div>
@@ -253,7 +253,7 @@ a {
 
 .parapic4 {
   background-image: url("/images/circuits.jpg");
-  /* filter: blur(4px); */
+  filter: blur(1px);
 }
 
 
