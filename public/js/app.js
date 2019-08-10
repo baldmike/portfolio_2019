@@ -2013,6 +2013,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Portfolio',
   data: function data() {
@@ -21584,7 +21589,7 @@ var VBTooltip = {
 /*!*************************************************!*\
   !*** ./node_modules/bootstrap-vue/esm/index.js ***!
   \*************************************************/
-/*! exports provided: BVConfigPlugin, BVConfig, BootstrapVue, install, setConfig, default, componentsPlugin, BVModalPlugin, BVToastPlugin, AlertPlugin, BAlert, BadgePlugin, BBadge, BreadcrumbPlugin, BBreadcrumb, BBreadcrumbItem, ButtonPlugin, BButton, BButtonClose, ButtonGroupPlugin, BButtonGroup, ButtonToolbarPlugin, BButtonToolbar, CardPlugin, BCard, BCardBody, BCardFooter, BCardGroup, BCardHeader, BCardImg, BCardImgLazy, BCardSubTitle, BCardText, BCardTitle, CarouselPlugin, BCarousel, BCarouselSlide, CollapsePlugin, BCollapse, DropdownPlugin, BDropdown, BDropdownItem, BDropdownItemButton, BDropdownDivider, BDropdownForm, BDropdownGroup, BDropdownHeader, BDropdownText, EmbedPlugin, BEmbed, FormPlugin, BForm, BFormDatalist, BFormText, BFormInvalidFeedback, BFormValidFeedback, FormCheckboxPlugin, BFormCheckbox, BFormCheckboxGroup, FormFilePlugin, BFormFile, FormGroupPlugin, BFormGroup, FormInputPlugin, BFormInput, FormRadioPlugin, BFormRadio, BFormRadioGroup, FormSelectPlugin, BFormSelect, FormTextareaPlugin, BFormTextarea, ImagePlugin, BImg, BImgLazy, InputGroupPlugin, BInputGroup, BInputGroupAddon, BInputGroupAppend, BInputGroupPrepend, BInputGroupText, JumbotronPlugin, BJumbotron, LayoutPlugin, BContainer, BRow, BCol, BFormRow, LinkPlugin, BLink, ListGroupPlugin, BListGroup, BListGroupItem, MediaPlugin, BMedia, BMediaAside, BMediaBody, ModalPlugin, BModal, NavPlugin, BNav, BNavForm, BNavItem, BNavItemDropdown, BNavText, NavbarPlugin, BNavbar, BNavbarBrand, BNavbarNav, BNavbarToggle, PaginationPlugin, BPagination, PaginationNavPlugin, BPaginationNav, PopoverPlugin, BPopover, ProgressPlugin, BProgress, BProgressBar, SpinnerPlugin, BSpinner, TablePlugin, BTable, BTableLite, TabsPlugin, BTabs, BTab, ToastPlugin, BToast, BToaster, TooltipPlugin, BTooltip, directivesPlugin, VBModalPlugin, VBModal, VBPopoverPlugin, VBPopover, VBScrollspyPlugin, VBScrollspy, VBTogglePlugin, VBToggle, VBTooltipPlugin, VBTooltip */
+/*! exports provided: componentsPlugin, BVModalPlugin, BVToastPlugin, AlertPlugin, BAlert, BadgePlugin, BBadge, BreadcrumbPlugin, BBreadcrumb, BBreadcrumbItem, ButtonPlugin, BButton, BButtonClose, ButtonGroupPlugin, BButtonGroup, ButtonToolbarPlugin, BButtonToolbar, CardPlugin, BCard, BCardBody, BCardFooter, BCardGroup, BCardHeader, BCardImg, BCardImgLazy, BCardSubTitle, BCardText, BCardTitle, CarouselPlugin, BCarousel, BCarouselSlide, CollapsePlugin, BCollapse, DropdownPlugin, BDropdown, BDropdownItem, BDropdownItemButton, BDropdownDivider, BDropdownForm, BDropdownGroup, BDropdownHeader, BDropdownText, EmbedPlugin, BEmbed, FormPlugin, BForm, BFormDatalist, BFormText, BFormInvalidFeedback, BFormValidFeedback, FormCheckboxPlugin, BFormCheckbox, BFormCheckboxGroup, FormFilePlugin, BFormFile, FormGroupPlugin, BFormGroup, FormInputPlugin, BFormInput, FormRadioPlugin, BFormRadio, BFormRadioGroup, FormSelectPlugin, BFormSelect, FormTextareaPlugin, BFormTextarea, ImagePlugin, BImg, BImgLazy, InputGroupPlugin, BInputGroup, BInputGroupAddon, BInputGroupAppend, BInputGroupPrepend, BInputGroupText, JumbotronPlugin, BJumbotron, LayoutPlugin, BContainer, BRow, BCol, BFormRow, LinkPlugin, BLink, ListGroupPlugin, BListGroup, BListGroupItem, MediaPlugin, BMedia, BMediaAside, BMediaBody, ModalPlugin, BModal, NavPlugin, BNav, BNavForm, BNavItem, BNavItemDropdown, BNavText, NavbarPlugin, BNavbar, BNavbarBrand, BNavbarNav, BNavbarToggle, PaginationPlugin, BPagination, PaginationNavPlugin, BPaginationNav, PopoverPlugin, BPopover, ProgressPlugin, BProgress, BProgressBar, SpinnerPlugin, BSpinner, TablePlugin, BTable, BTableLite, TabsPlugin, BTabs, BTab, ToastPlugin, BToast, BToaster, TooltipPlugin, BTooltip, directivesPlugin, VBModalPlugin, VBModal, VBPopoverPlugin, VBPopover, VBScrollspyPlugin, VBScrollspy, VBTogglePlugin, VBToggle, VBTooltipPlugin, VBTooltip, BVConfigPlugin, BVConfig, BootstrapVue, install, setConfig, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -33531,7 +33536,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-55e6c8e6] {\n  font-family: 'Raleway', sans-serif;\n}\n\n  /* @media only screen and (min-width: 800px) { */\n.about[data-v-55e6c8e6]:hover::after { \n    content: \" - Who is Bald Mike?\";\n}\n#projectsButton[data-v-55e6c8e6]:hover::after { \n    content: \" - Examples of recent work.\";\n}\n#github-desc[data-v-55e6c8e6]:hover::after { \n    content: \" - Show me the code!\";\n}\n#contact[data-v-55e6c8e6]:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n}\nh3[data-v-55e6c8e6] {\n  margin: 40px 0 0;\n}\nul[data-v-55e6c8e6] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-55e6c8e6] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-55e6c8e6] {\n  color: #42b983;\n}\n.parallax[data-v-55e6c8e6] {\n  margin-top: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-55e6c8e6] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-55e6c8e6] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-55e6c8e6] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.white-bar[data-v-55e6c8e6] { \n  background-color: white;\n  text-align: center;\n}\n.button[data-v-55e6c8e6] {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: black;\n  color: cornflowerblue;\n  transition: 800ms;\n  outline: none;\n}\n.button[data-v-55e6c8e6]:hover {\n  color: black;\n  background-color: white;\n  width: 200px;\n  height: 200px;\n  border-radius: 10px;\n  transition: 800ms;\n}\n.regroup[data-v-55e6c8e6] {\n  background-image: url(\"/images/regroup.png\");\n}\n.regroup[data-v-55e6c8e6]:hover:after {\n  background-image: url('');\n  background-color: white;\n}\n.roo[data-v-55e6c8e6] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-55e6c8e6] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-55e6c8e6] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-55e6c8e6;\n          animation-name: slide-data-v-55e6c8e6;\n  -webkit-animation-duration: 5s;\n          animation-duration: 5s;\n}\n@-webkit-keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n@keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n.shout[data-v-55e6c8e6] {\n  margin-top: 40px;\n}\n.copyright[data-v-55e6c8e6] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.rotate[data-v-55e6c8e6] {\n  transform: rotate(90)\n}\n", ""]);
+exports.push([module.i, "\n*[data-v-55e6c8e6] {\n  font-family: 'Raleway', sans-serif;\n}\n\n  /* @media only screen and (min-width: 800px) { */\n.about[data-v-55e6c8e6]:hover::after { \n    content: \" - Who is Bald Mike?\";\n}\n#projectsButton[data-v-55e6c8e6]:hover::after { \n    content: \" - Examples of recent work.\";\n}\n#github-desc[data-v-55e6c8e6]:hover::after { \n    content: \" - Show me the code!\";\n}\n#contact[data-v-55e6c8e6]:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n}\nh3[data-v-55e6c8e6] {\n  margin: 40px 0 0;\n}\nul[data-v-55e6c8e6] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-55e6c8e6] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-55e6c8e6] {\n  color: #42b983;\n}\n.parallax[data-v-55e6c8e6] {\n  margin-top: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-55e6c8e6] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-55e6c8e6] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-55e6c8e6] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.parapic4[data-v-55e6c8e6] {\n  background-image: url(\"/images/projects.jpg\");\n}\n.white-bar[data-v-55e6c8e6] { \n  background-color: white;\n  text-align: center;\n}\n.button[data-v-55e6c8e6] {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: black;\n  color: cornflowerblue;\n  transition: 800ms;\n  outline: none;\n}\n.button[data-v-55e6c8e6]:hover {\n  color: black;\n  background-color: white;\n  width: 200px;\n  height: 200px;\n  border-radius: 10px;\n  transition: 800ms;\n}\n.regroup[data-v-55e6c8e6] {\n  background-image: url(\"/images/regroup.png\");\n}\n.regroup[data-v-55e6c8e6]:hover:after {\n  background-image: url('');\n  background-color: white;\n}\n.roo[data-v-55e6c8e6] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-55e6c8e6] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-55e6c8e6] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-55e6c8e6;\n          animation-name: slide-data-v-55e6c8e6;\n  -webkit-animation-duration: 5s;\n          animation-duration: 5s;\n}\n@-webkit-keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n@keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n.shout[data-v-55e6c8e6] {\n  margin-top: 40px;\n}\n.copyright[data-v-55e6c8e6] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.testimony-box[data-v-55e6c8e6] {\n  padding: 100px;\n  margin: 20px;\n  font-size: 1.4rem;\n}\n", ""]);
 
 // exports
 
@@ -65794,10 +65799,17 @@ var render = function() {
         1
       ),
       _vm._v(" "),
+      _c("div", {
+        staticClass: "parallax parapic4",
+        attrs: { id: "testimonySection" }
+      }),
+      _vm._v(" "),
+      _vm._m(2),
+      _vm._v(" "),
       _c("div", { staticClass: "parallax parapic3" }),
       _vm._v(" "),
       _c("div", [
-        _vm._m(2),
+        _vm._m(3),
         _vm._v(" "),
         _c(
           "div",
@@ -66114,6 +66126,20 @@ var staticRenderFns = [
       _c("div", [
         _c("div", { staticClass: "shout" }, [_c("h1", [_vm._v("PROJECTS")])])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "testimony-box" }, [
+      _c("p", [
+        _vm._v(
+          '"Mike came along at a time when we were having major website issues, causing many frustrated users to not be able to successfully donate or apply. I was so sick of dealing with people that never responded or could not fix our issues. Mike came swooping in and fixed all of our issues, made our site uber user-friendly, and built a gorgeous, informative brand new one-stop-shop webapp."'
+        )
+      ]),
+      _vm._v(" "),
+      _c("p", [_vm._v("Sarah Lauch, Founder, The Live Like Roo Foundation")])
     ])
   },
   function() {
