@@ -34,13 +34,12 @@
     
 
     <div class="parallax parapic2" id="aboutSection"></div>
-    <div>
-      <div>
+  
         <div class="shout">
           <h1>PROJECTS</h1>
         </div>
-      </div>
-    </div>
+  
+    
 
     <div class="white-bar" id="projects">
       <b-row>
@@ -67,6 +66,10 @@
     <div class="credit">
       <p style="font-size: .6rem;">Photo by Dean Brierley on Unsplash</p>
     </div>
+
+    <div class="shout">
+          <h1>KIND WORDS</h1>
+        </div>
 
     <div class="testimony-box">
       <p>"Mike came along at a time when we were having major website issues, causing many frustrated users to not be able to successfully donate or apply. I was so sick of dealing with people that never responded or could not fix our issues. Mike came swooping in and fixed all of our issues, made our site uber user-friendly, and built a gorgeous, informative brand new webapp."</p>
@@ -113,16 +116,14 @@
 
     <!-- Roo Modal -->
     <b-modal id="aboutModal" title="Who is Bald Mike?" hide-footer no-close-on-backdrop>
-      <p class="my-4">Dog-lovin', bath-takin', foul-mouthed, kind-hearted, justice-demanding, truth-seeking, equality-driven bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times. I can sing the entire beginning of "The Girl From Ipanema" in Portuguese.</p>
-      <p class="my-4">I'm also a pretty nimble PHP/Laravel and JavaScript/Vue.js web developer who delivers, on time. I'm fluent in Git, and equally comfortable on either "end." I've deployed to AWS and Digital Ocean, and I'd rather SSH than GUI. I've designed, architected, developed, deployed and maintained in PHP, Python, C# and the MEAN stack.</p>
+      <p>Dog-lovin', bath-takin', foul-mouthed, kind-hearted, justice-demanding, truth-seeking, equality-driven bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times. I can sing the entire beginning of "The Girl From Ipanema" in Portuguese.</p>
+      <p>I'm also a pretty nimble PHP/Laravel and JavaScript/Vue.js web developer who delivers, on time. I'm fluent in Git, and equally comfortable on either "end." I've deployed to AWS and Digital Ocean, and I'd rather SSH than GUI. I've designed, architected, developed, deployed and maintained in PHP, Python, C# and the MEAN stack.</p>
 
       <p>After many years building teams and leading people, it was time for me to shift my focus back to my childhood dream of controlloing the robots before they control us. And, for the last two years I've been doing just that. I began this chapter of my life by attending a coding bootcamp, which laid the foundation for a lifetime of learning.</p>
 
       <p>I approach each problem the exact same way:  If SOMEONE can solve this, then I can solve this. And then I don't give up until it's solved. I learned this technique from my dog, who could also use a job.</p>
 
       <p>And while I may have a personality and a sense of humor, I take my work, and the success of any team I am a part of,  very seriously. And I am currently available for full time, full stack developer roles. Oh, and...  got a role in a tech I don't yet know? Just give me a few days; I've got the resources, motivation and ability to get up to speed quickly.</p>
-
-      <p></p>
 
 
     </b-modal>
@@ -351,7 +352,6 @@ a {
 }
 
 .testimony-box {
-  padding: 100px;
   margin: 20px;
   font-size: 1.4rem;
 }

@@ -2038,6 +2038,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Portfolio',
   data: function data() {
@@ -33556,7 +33557,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-55e6c8e6] {\n  font-family: 'Raleway', sans-serif;\n}\n\n  /* @media only screen and (min-width: 800px) { */\n.about[data-v-55e6c8e6]:hover::after { \n    content: \" - Who is Bald Mike?\";\n}\n#projectsButton[data-v-55e6c8e6]:hover::after { \n    content: \" - Examples of recent work.\";\n}\n#github-desc[data-v-55e6c8e6]:hover::after { \n    content: \" - Show me the code!\";\n}\n#contact[data-v-55e6c8e6]:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n}\nh3[data-v-55e6c8e6] {\n  margin: 40px 0 0;\n}\nul[data-v-55e6c8e6] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-55e6c8e6] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-55e6c8e6] {\n  color: #42b983;\n}\n.parallax[data-v-55e6c8e6] {\n  margin-top: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-55e6c8e6] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-55e6c8e6] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-55e6c8e6] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.parapic4[data-v-55e6c8e6] {\n  background-image: url(\"/images/circuits.jpg\");\n  -webkit-filter: blur(1px);\n          filter: blur(1px);\n}\n.white-bar[data-v-55e6c8e6] { \n  background-color: white;\n  text-align: center;\n}\n.button[data-v-55e6c8e6] {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: black;\n  color: cornflowerblue;\n  transition: 800ms;\n  outline: none;\n}\n.button[data-v-55e6c8e6]:hover {\n  color: black;\n  background-color: white;\n  width: 200px;\n  height: 200px;\n  border-radius: 10px;\n  transition: 800ms;\n}\n.regroup[data-v-55e6c8e6] {\n  background-image: url(\"/images/regroup.png\");\n}\n.regroup[data-v-55e6c8e6]:hover:after {\n  background-image: url('');\n  background-color: white;\n}\n.roo[data-v-55e6c8e6] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-55e6c8e6] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-55e6c8e6] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-55e6c8e6;\n          animation-name: slide-data-v-55e6c8e6;\n  -webkit-animation-duration: 3s;\n          animation-duration: 3s;\n}\n@-webkit-keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n@keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n.shout[data-v-55e6c8e6] {\n  margin-top: 40px;\n}\n.copyright[data-v-55e6c8e6] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.testimony-box[data-v-55e6c8e6] {\n  padding: 100px;\n  margin: 20px;\n  font-size: 1.4rem;\n}\n.credit[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n", ""]);
+exports.push([module.i, "\n*[data-v-55e6c8e6] {\n  font-family: 'Raleway', sans-serif;\n}\n\n  /* @media only screen and (min-width: 800px) { */\n.about[data-v-55e6c8e6]:hover::after { \n    content: \" - Who is Bald Mike?\";\n}\n#projectsButton[data-v-55e6c8e6]:hover::after { \n    content: \" - Examples of recent work.\";\n}\n#github-desc[data-v-55e6c8e6]:hover::after { \n    content: \" - Show me the code!\";\n}\n#contact[data-v-55e6c8e6]:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n}\nh3[data-v-55e6c8e6] {\n  margin: 40px 0 0;\n}\nul[data-v-55e6c8e6] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-55e6c8e6] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-55e6c8e6] {\n  color: #42b983;\n}\n.parallax[data-v-55e6c8e6] {\n  margin-top: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-55e6c8e6] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-55e6c8e6] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-55e6c8e6] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.parapic4[data-v-55e6c8e6] {\n  background-image: url(\"/images/circuits.jpg\");\n  -webkit-filter: blur(1px);\n          filter: blur(1px);\n}\n.white-bar[data-v-55e6c8e6] { \n  background-color: white;\n  text-align: center;\n}\n.button[data-v-55e6c8e6] {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: black;\n  color: cornflowerblue;\n  transition: 800ms;\n  outline: none;\n}\n.button[data-v-55e6c8e6]:hover {\n  color: black;\n  background-color: white;\n  width: 200px;\n  height: 200px;\n  border-radius: 10px;\n  transition: 800ms;\n}\n.regroup[data-v-55e6c8e6] {\n  background-image: url(\"/images/regroup.png\");\n}\n.regroup[data-v-55e6c8e6]:hover:after {\n  background-image: url('');\n  background-color: white;\n}\n.roo[data-v-55e6c8e6] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-55e6c8e6] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-55e6c8e6] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-55e6c8e6;\n          animation-name: slide-data-v-55e6c8e6;\n  -webkit-animation-duration: 3s;\n          animation-duration: 3s;\n}\n@-webkit-keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n@keyframes slide-data-v-55e6c8e6 {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n.shout[data-v-55e6c8e6] {\n  margin-top: 40px;\n}\n.copyright[data-v-55e6c8e6] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.testimony-box[data-v-55e6c8e6] {\n  margin: 20px;\n  font-size: 1.4rem;\n}\n.credit[data-v-55e6c8e6] {\n  position: -webkit-sticky;\n  position: sticky;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n", ""]);
 
 // exports
 
@@ -65830,10 +65831,12 @@ var render = function() {
       _vm._v(" "),
       _vm._m(4),
       _vm._v(" "),
+      _vm._m(5),
+      _vm._v(" "),
       _c("div", { staticClass: "parallax parapic3" }),
       _vm._v(" "),
       _c("div", [
-        _vm._m(5),
+        _vm._m(6),
         _vm._v(" "),
         _c(
           "div",
@@ -65953,13 +65956,13 @@ var render = function() {
           }
         },
         [
-          _c("p", { staticClass: "my-4" }, [
+          _c("p", [
             _vm._v(
               "Dog-lovin', bath-takin', foul-mouthed, kind-hearted, justice-demanding, truth-seeking, equality-driven bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times. I can sing the entire beginning of \"The Girl From Ipanema\" in Portuguese."
             )
           ]),
           _vm._v(" "),
-          _c("p", { staticClass: "my-4" }, [
+          _c("p", [
             _vm._v(
               "I'm also a pretty nimble PHP/Laravel and JavaScript/Vue.js web developer who delivers, on time. I'm fluent in Git, and equally comfortable on either \"end.\" I've deployed to AWS and Digital Ocean, and I'd rather SSH than GUI. I've designed, architected, developed, deployed and maintained in PHP, Python, C# and the MEAN stack."
             )
@@ -65981,9 +65984,7 @@ var render = function() {
             _vm._v(
               "And while I may have a personality and a sense of humor, I take my work, and the success of any team I am a part of,  very seriously. And I am currently available for full time, full stack developer roles. Oh, and...  got a role in a tech I don't yet know? Just give me a few days; I've got the resources, motivation and ability to get up to speed quickly."
             )
-          ]),
-          _vm._v(" "),
-          _c("p")
+          ])
         ]
       ),
       _vm._v(" "),
@@ -66176,11 +66177,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", [
-        _c("div", { staticClass: "shout" }, [_c("h1", [_vm._v("PROJECTS")])])
-      ])
-    ])
+    return _c("div", { staticClass: "shout" }, [_c("h1", [_vm._v("PROJECTS")])])
   },
   function() {
     var _vm = this
@@ -66190,6 +66187,14 @@ var staticRenderFns = [
       _c("p", { staticStyle: { "font-size": ".6rem" } }, [
         _vm._v("Photo by Dean Brierley on Unsplash")
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "shout" }, [
+      _c("h1", [_vm._v("KIND WORDS")])
     ])
   },
   function() {
