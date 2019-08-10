@@ -252,7 +252,8 @@ a {
 }
 
 .parapic4 {
-  background-image: url("/images/projects.jpg");
+  background-image: url("/images/circuits.jpg");
+  /* filter: blur(4px); */
 }
 
 
