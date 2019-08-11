@@ -30,12 +30,11 @@
 </template>
 
 <script>
-import CrapsGame from './components/CrapsGame.vue'
 
-import WagerComponent from './components/WagerComponent.vue'
-import DiceComponent from './components/DiceComponent.vue'
-import OutcomeComponent from './components/OutcomeComponent.vue'
-import NowPlaying from './components/NowPlayingComponent.vue'
+import WagerComponent from '../components/WagerComponent.vue'
+import DiceComponent from '../components/DiceComponent.vue'
+import OutcomeComponent from '../components/OutcomeComponent.vue'
+import NowPlaying from '../components/NowPlayingComponent.vue'
 
 export default {
   name: 'app',

@@ -33,15 +33,15 @@
     </div>
     
 
-    <div class="parallax parapic2 nophone" id="aboutSection"></div>
+    <div class="parallax parapic2 nophone"></div>
   
-        <div class="shout">
+        <div class="shout" id="projects">
           <h1>PROJECTS</h1>
         </div>
   
     
 
-    <div class="white-bar" id="projects">
+    <div class="white-bar">
       <b-row>
         <b-col cols="12" sm="3">
           <button @click="$bvModal.show('rooModal')" id="rooButton" class="roo button"></button>
@@ -160,13 +160,15 @@
     <b-modal id="gmapModal" title="Coding Challenges & Personal Projects" hide-footer no-close-on-backdrop>
       <p>Given a .xlsx file, place all 1500 properties on Google Map. Markers should be a gradient of green to red, based on estimated home value, low to high. Filters are all fully reactive. Clicking button above will open a new window with a demo.</p> 
       
-      <a href="https://baldmike.github.io/filtered-google-maps/" target="_blank"><button class="my-3">Google Maps Challenge</button></a>
+      <b-button><a href="https://baldmike.github.io/filtered-google-maps/" target="_blank">Google Maps Challenge</a></b-button>
 
       <hr>
 
       <p>A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.</p> 
 
-      <a href="https://baldmike.github.io/craps-vue/" target="_blank"><button class="my-3">Vue Craps Game</button></a>
+      <!-- <a href="https://baldmike.github.io/craps-vue/" target="_blank"><button class="my-3">Vue Craps Game</button></a> -->
+
+      <b-button><router-link to="/craps">Vue Craps Game</router-link></b-button>
     </b-modal>
 
     <!-- email Modal -->
