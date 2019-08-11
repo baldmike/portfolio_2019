@@ -1,13 +1,18 @@
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import VueRouter from 'vue-router'
+import { router } from './router'
+import store from './store'
+
 
 require('./bootstrap');
 
 window.Vue = require('vue');
 
 Vue.use(BootstrapVue)
+Vue.use(VueRouter)
 
-Vue.component('portfolio', require('./components/portfolio.vue').default);
+Vue.component('portfolio', require('./views/portfolio.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -17,4 +22,7 @@ Vue.component('portfolio', require('./components/portfolio.vue').default);
 
 const app = new Vue({
     el: '#app',
+    template: '<router-view></router-view>',
+    router,
+    store,
 });
