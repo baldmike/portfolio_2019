@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid">
     
-    <div class="parallax parapic1 no-phone" id="top">
+    <div class="parallax parapic1" id="top">
       <div class="headline">
         <p>BALD MIKE</p>
         <p>COMPUTER BEHAVIORIST</p>
@@ -33,7 +33,7 @@
     </div>
     
 
-    <div class="parallax parapic2" id="aboutSection"></div>
+    <div class="parallax parapic2 nophone" id="aboutSection"></div>
   
         <div class="shout">
           <h1>PROJECTS</h1>
@@ -61,10 +61,10 @@
       </b-row>
     </div>
 
-    <div class="parallax parapic4" id="testimonySection"></div>
+    <div class="parallax parapic4 nophone" id="testimonySection"></div>
 
     <div class="credit">
-      <p style="font-size: .6rem;">Photo by Dean Brierley on Unsplash</p>
+      <p style="font-size: .6rem;" class="nophone">Photo by Dean Brierley on Unsplash</p>
     </div>
 
     <div class="shout">
@@ -77,7 +77,7 @@
       <p>Sarah Lauch, Founder, The Live Like Roo Foundation</p>
     </div>
     
-    <div class="parallax parapic3"></div>    
+    <div class="parallax parapic3 nophone"></div>    
       <div>
         <div>
           <div class="shout">
@@ -211,11 +211,19 @@ export default {
 
 
 <style scoped>
-* {
-  font-family: 'Raleway', sans-serif;
-}
+  * {
+    font-family: 'Raleway', sans-serif;
+  }
 
-  /* @media only screen and (min-width: 800px) { */
+  @media only screen and (max-width: 500px) {
+    .nophone {
+      display: none;
+      background: black;
+    }
+  }
+
+  /* @media only screen and (min-width: 500px) { */
+
   
   .about:hover::after { 
     content: " - Who is Bald Mike?";
@@ -360,4 +368,5 @@ a {
   position: relative;
   bottom: 0;
 }
+  /* } */
 </style>
