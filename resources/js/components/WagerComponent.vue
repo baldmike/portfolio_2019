@@ -13,7 +13,7 @@
         <br>
         <div>Bank: {{ bank }}</div>
         <div class="row">
-          <button class="clear-button" @click="clearBet">CLEAR BET</button>
+          <b-button class="clear-button" @click="clearBet">CLEAR BET</b-button>
         </div>
       </div>
       
@@ -89,12 +89,13 @@
   }
 
   .clear-button {
-    width: 200px;
+    width: 40%;
     height: 2rem;
-    border: 1px solid black;
-    margin: 2rem auto;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    right: 30%;
+    margin: 1rem auto;
   }
-
-
 
 </style>

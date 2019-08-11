@@ -33943,7 +33943,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-7628257e] {\n  margin: 0px;\n  padding: 0px;\n}\n.box[data-v-7628257e] {\n  border: 1px solid black;\n  height: 50vh;\n}\n.chip[data-v-7628257e] {\n  height: 50px;\n  width: 50px;\n  border-radius: 50%;\n  margin-left: auto;\n  margin-right: auto;\n  color: white;\n  line-height: 3rem;\n}\n.chip5[data-v-7628257e] {\n  background: red;\n}\n.chip25[data-v-7628257e] {\n  background: blue;\n}\n.chip50[data-v-7628257e] {\n  background: green;\n}\n.chip100[data-v-7628257e] {\n  background: black;\n}\n.clear-button[data-v-7628257e] {\n  width: 200px;\n  height: 2rem;\n  border: 1px solid black;\n  margin: 2rem auto;\n}\n\n\n\n", ""]);
+exports.push([module.i, "\n*[data-v-7628257e] {\n  margin: 0px;\n  padding: 0px;\n}\n.box[data-v-7628257e] {\n  border: 1px solid black;\n  height: 50vh;\n}\n.chip[data-v-7628257e] {\n  height: 50px;\n  width: 50px;\n  border-radius: 50%;\n  margin-left: auto;\n  margin-right: auto;\n  color: white;\n  line-height: 3rem;\n}\n.chip5[data-v-7628257e] {\n  background: red;\n}\n.chip25[data-v-7628257e] {\n  background: blue;\n}\n.chip50[data-v-7628257e] {\n  background: green;\n}\n.chip100[data-v-7628257e] {\n  background: black;\n}\n.clear-button[data-v-7628257e] {\n  width: 40%;\n  height: 2rem;\n  position: absolute;\n  bottom: 0;\n  left: 30%;\n  right: 30%;\n  margin: 1rem auto;\n}\n\n", ""]);
 
 // exports
 
@@ -66478,13 +66478,18 @@ var render = function() {
       _vm._v(" "),
       _c("div", [_vm._v("Bank: " + _vm._s(_vm.bank))]),
       _vm._v(" "),
-      _c("div", { staticClass: "row" }, [
-        _c(
-          "button",
-          { staticClass: "clear-button", on: { click: _vm.clearBet } },
-          [_vm._v("CLEAR BET")]
-        )
-      ])
+      _c(
+        "div",
+        { staticClass: "row" },
+        [
+          _c(
+            "b-button",
+            { staticClass: "clear-button", on: { click: _vm.clearBet } },
+            [_vm._v("CLEAR BET")]
+          )
+        ],
+        1
+      )
     ])
   ])
 }
