@@ -121,7 +121,7 @@
 
       <p>After many years building teams and leading people, it was time for me to shift my focus back to my childhood dream of controlloing the robots before they control us. And, for the last two years I've been doing just that. I began this chapter of my life by attending a coding bootcamp, which laid the foundation for a lifetime of learning.</p>
 
-      <p>I approach each problem the exact same way:  If SOMEONE can solve this, then I can solve this. And then I don't give up until it's solved. I learned this technique from my dog, who could also use a job.</p>
+      <p>I approach each problem the exact same way:  If ~someone~ can solve this, then ~I~ can solve this. And then I don't give up until it's solved. I learned this technique from my dog, who could also use a job.</p>
 
       <p>And while I may have a personality and a sense of humor, I take my work, and the success of any team I am a part of,  very seriously. And I am currently available for full time, full stack developer roles. Oh, and...  got a role in a tech I don't yet know? Just give me a few days; I've got the resources, motivation and ability to get up to speed quickly.</p>
 

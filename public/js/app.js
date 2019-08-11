@@ -65976,7 +65976,7 @@ var render = function() {
           _vm._v(" "),
           _c("p", [
             _vm._v(
-              "I approach each problem the exact same way:  If SOMEONE can solve this, then I can solve this. And then I don't give up until it's solved. I learned this technique from my dog, who could also use a job."
+              "I approach each problem the exact same way:  If ~someone~ can solve this, then ~I~ can solve this. And then I don't give up until it's solved. I learned this technique from my dog, who could also use a job."
             )
           ]),
           _vm._v(" "),
