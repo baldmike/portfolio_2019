@@ -67030,17 +67030,7 @@ var render = function() {
             _vm._v(
               'A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.'
             )
-          ]),
-          _vm._v(" "),
-          _c(
-            "b-button",
-            [
-              _c("router-link", { attrs: { to: "/craps" } }, [
-                _vm._v("Vue Craps Game")
-              ])
-            ],
-            1
-          )
+          ])
         ],
         1
       ),

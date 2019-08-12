@@ -168,7 +168,7 @@
 
       <!-- <a href="https://baldmike.github.io/craps-vue/" target="_blank"><button class="my-3">Vue Craps Game</button></a> -->
 
-      <b-button><router-link to="/craps">Vue Craps Game</router-link></b-button>
+      <!-- <b-button><router-link to="/craps">Vue Craps Game</router-link></b-button> -->
     </b-modal>
 
     <!-- email Modal -->
