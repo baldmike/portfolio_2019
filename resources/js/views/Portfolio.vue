@@ -166,7 +166,7 @@
 
       <p>A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.</p> 
 
-      <!-- <a href="https://baldmike.github.io/craps-vue/" target="_blank"><button class="my-3">Vue Craps Game</button></a> -->
+      <b-button><a href="https://baldmike.github.io/craps-vue/" target="_blank">Vue Craps Game</a></b-button>
 
       <!-- <b-button><router-link to="/craps">Vue Craps Game</router-link></b-button> -->
     </b-modal>
