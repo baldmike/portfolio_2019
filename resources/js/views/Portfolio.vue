@@ -4,7 +4,7 @@
     <div class="parallax parapic1" id="top">
       <div class="headline">
         <p>BALD MIKE</p>
-        <p>COMPUTER BEHAVIORIST</p>
+        <p>I BUILD WEB APPLICATIONS</p>
       </div>
     </div>
 
@@ -166,9 +166,9 @@
 
       <p>A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.</p> 
 
-      <b-button><a href="https://baldmike.github.io/craps-vue/" target="_blank">Vue Craps Game</a></b-button>
+      <!-- <b-button><a href="https://baldmike.github.io/craps-vue/" target="_blank">Vue Craps Game</a></b-button> -->
 
-      <!-- <b-button><router-link to="/craps">Vue Craps Game</router-link></b-button> -->
+      <b-button><router-link to="/craps">Vue Craps Game</router-link></b-button>
     </b-modal>
 
     <!-- email Modal -->

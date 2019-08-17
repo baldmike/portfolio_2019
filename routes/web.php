@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('spa');
 });
 
 Route::get('/{any}', function () {
-    return view('welcome');
+    return view('spa');
 });
 

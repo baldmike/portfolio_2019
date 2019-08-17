@@ -29,9 +29,8 @@
         methods: {
         
         },
-        computed: mapGetters(['isAuthenticated', 'isMonthly', 'isOneTime']),
         
-        // methods: mapActions(['login']),
+
         created() {
     
         },

@@ -2,7 +2,7 @@ import VueRouter from 'vue-router'
 
 import MainApp from './MainApp'
 import Portfolio from './views/Portfolio.vue'
-import CrapsComponent from './views/CrapsComponent'
+import CrapsView from './views/CrapsView'
 
 export const router = new VueRouter({ 
     mode: 'history',
@@ -20,7 +20,7 @@ export const router = new VueRouter({
 
                 {
                     path: '/craps',
-                    component: CrapsComponent,
+                    component: CrapsView,
 
                 },
                

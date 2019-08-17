@@ -6,8 +6,8 @@ Vue.use(Vuex)
 export default new Vuex.Store({ 
     state() {
         return { 
-            die1: 1, 
-            die2: 2, 
+            die1: '1', 
+            die2: '2', 
             rollTotal: null, 
             point: null,
             comeOut: true,
@@ -20,7 +20,11 @@ export default new Vuex.Store({
     },
     getters: { 
     },
-    mutations: { 
+    mutations: {
+        setRoll(state, payload) {
+            console.log("PAYLOAD----->");
+            console.log(payload);
+        },
         rollTheDice(state) {
 
             state.winFlag = false;
@@ -30,37 +34,9 @@ export default new Vuex.Store({
             state.rollTotal = null;
             state.message = '';
 
-            setTimeout(function() {
-                state.die1 = Math.floor(Math.random() * 6) + 1;
-                state.die2 = Math.floor(Math.random() * 6) + 1;
-                state.rollTotal = state.die1 + state.die2;
-
-                if( state.comeOut ) {
-                
-                    
-                    if(state.rollTotal===7 || state.rollTotal===11) {
-                        state.message = "Winner! Winner!"
-                        state.winFlag = true;
-                        store.dispatch('winLogic');
-    
-                    } else if(state.rollTotal===2 || state.rollTotal===3 || state.rollTotal===12) {
-                        state.message = "Craps!"
-                        state.loseFlag = true;
-                        store.dispatch('loseLogic');
-                    } else {
-                        state.point = state.rollTotal;
-                        state.message = "Your point is " + state.point;
-                        state.comeOut = false;
-                    }
-                } else if(state.rollTotal===7) {
-                    store.dispatch('loseLogic', "7 Out!");
-                } else if (state.rollTotal===state.point) {
-                    store.dispatch('winLogic', "You hit your point!");
-                } else {
-                    store.dispatch('message', "Keep Rollin'!");  
-                }
-            }, 600);
-
+            state.die1 = Math.floor(Math.random() * 6) + 1;
+            state.die2 = Math.floor(Math.random() * 6) + 1;
+            state.rollTotal = state.die1 + state.die2;
             
         },
         setThePoint(state, payload) {
@@ -97,13 +73,18 @@ export default new Vuex.Store({
         loseLogic(state) {
             state.loseFlag = true;
             state.bet = 0;
+            state.message = "Craps! You Lose!"
         }
     },
     actions: { 
+        setRoll(context, payload) {
+            context.commit('setRoll', payload);
+        },
+
         rollDice(context) {
             context.commit('rollTheDice');
         },
-        pointLogic(context, payload) {
+        setPoint(context, payload) {
             context.commit('setThePoint', payload);
         },
         winLogic(context, payload) {

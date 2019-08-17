@@ -13,7 +13,7 @@ Vue.use(BootstrapVue)
 Vue.use(VueRouter)
 
 Vue.component('Portfolio', require('./views/Portfolio.vue').default);
-Vue.component('CrapsComponent', require('./views/CrapsComponent.vue'));
+Vue.component('CrapsView', require('./views/CrapsView.vue'));
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

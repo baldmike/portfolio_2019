@@ -6,7 +6,7 @@
         <meta name="csrf-token" content="{{ csrf_token()}}"> 
         <script>window.laravel = { csrfToken: '{{ csrf_token() }}' }</script> 
         
-        <title>BALD MIKE</title>
+        <title>BALD MIKE 2019</title>
 
         <link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css">
 
