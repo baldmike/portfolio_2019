@@ -143,8 +143,6 @@
       <div>
         <a href="https://livelikeroo.org" target="_blank"><button class="my-3">Visit https://livelikeroo.org</button></a>
       </div>
-      
-      
     </b-modal>
 
     <!-- Regroup Modal -->
@@ -156,19 +154,33 @@
       <a href="https://www.regroupconnect.com" target="_blank"><button class="my-3">Visit RegroupConnect</button></a>
     </b-modal>
 
-    <!-- gmap Modal -->
-    <b-modal id="gmapModal" title="Coding Challenges & Personal Projects" hide-footer no-close-on-backdrop>
-      <p>Given a .xlsx file, place all 1500 properties on Google Map. Markers should be a gradient of green to red, based on estimated home value, low to high. Filters are all fully reactive. Clicking button above will open a new window with a demo.</p> 
-      
-      <b-button><a href="https://baldmike.github.io/filtered-google-maps/" target="_blank">Google Maps Challenge</a></b-button>
+    <!-- Projects Modal -->
 
+    
+    <b-modal id="gmapModal" title="Coding Challenges & Personal Projects" hide-footer no-close-on-backdrop>
+
+      <b-col class="6" offset="3">
+        <b-button class="button"><a href="https://baldmike.github.io/filtered-google-maps/" target="_blank">Google Maps Challenge</a></b-button>
+      </b-col>
+      <p>Given a .xlsx file, place all 1500 properties on Google Map. Markers should be a gradient of green to red, based on estimated home value, low to high. Filters are all fully reactive. Clicking button above will open a new window with a demo.</p> 
       <hr>
 
-      <p>A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.</p> 
+      <b-col cols="6" offset="3">
+        <b-button class="button"><a href="https://resqmia.com/animals">resQmia</a></b-button>
+      </b-col>
+      <p>
+        resQmia! Built to replace several spreadsheets, resQmia is a simple notebook or "post-it" style application used to track cats and dogs' vaccines and brief medical history as they're under the supervision of Mia Lindner, director of Operations for Alive Rescue in Chicago. Built with Laravel/Vue using Laravel's Passport OAuth implementation to securely couple the back end with the client using token-based authentication. Tech: PHP/Laravel, JavaScript/Vue.js, Vuex, Vue-router, Bootstrap-vue, Axios HTTP library deployed on Digital Ocean with Laravel Forge.
+      </p>
+      
+      <hr>
 
       <!-- <b-button><a href="https://baldmike.github.io/craps-vue/" target="_blank">Vue Craps Game</a></b-button> -->
+      <b-col cols="6" offset="3">
+        <b-button class="button"><router-link to="/craps">Vue Craps Game</router-link></b-button>
+      </b-col>
 
-      <b-button><router-link to="/craps">Vue Craps Game</router-link></b-button>
+      <p>A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.</p> 
+      
     </b-modal>
 
     <!-- email Modal -->
