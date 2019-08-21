@@ -2388,6 +2388,16 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Portfolio',
   data: function data() {
@@ -66912,11 +66922,29 @@ var render = function() {
           }
         },
         [
-          _c("p", [
-            _vm._v(
-              "Dog-lovin', bath-takin', foul-mouthed, kind-hearted, justice-demanding, truth-seeking, equality-driven bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times. I can sing the entire beginning of \"The Girl From Ipanema\" in Portuguese."
-            )
-          ]),
+          _c(
+            "b-row",
+            [
+              _c("b-col", { attrs: { cols: "6" } }, [
+                _c("p", [
+                  _vm._v(
+                    "Dog-lovin', bath-takin', foul-mouthed, kind-hearted, justice-demanding, truth-seeking, equality-driven bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times. I can sing the entire beginning of \"The Girl From Ipanema\" in Portuguese."
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("b-col", { attrs: { cols: "6" } }, [
+                _c("img", {
+                  attrs: {
+                    src: "images/baldNchop.png",
+                    alt: "Bald Mike Himself",
+                    width: "100%"
+                  }
+                })
+              ])
+            ],
+            1
+          ),
           _vm._v(" "),
           _c("p", [
             _vm._v(
@@ -66941,7 +66969,8 @@ var render = function() {
               "And while I may have a personality and a sense of humor, I take my work, and the success of any team I am a part of,  very seriously. And I am currently available for full time, full stack developer roles. Oh, and...  got a role in a tech I don't yet know? Just give me a few days; I've got the resources, motivation and ability to get up to speed quickly."
             )
           ])
-        ]
+        ],
+        1
       ),
       _vm._v(" "),
       _c(

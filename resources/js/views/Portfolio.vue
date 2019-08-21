@@ -116,7 +116,17 @@
 
     <!-- Roo Modal -->
     <b-modal id="aboutModal" title="Who is Bald Mike?" hide-footer no-close-on-backdrop>
-      <p>Dog-lovin', bath-takin', foul-mouthed, kind-hearted, justice-demanding, truth-seeking, equality-driven bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times. I can sing the entire beginning of "The Girl From Ipanema" in Portuguese.</p>
+      <b-row>
+      
+        <b-col cols="6">
+          <p>Dog-lovin', bath-takin', foul-mouthed, kind-hearted, justice-demanding, truth-seeking, equality-driven bald hippie who sprinkles his rose-colored views with just enough pragmatism to keep him from dancing at many, but not all, inappropriate times. I can sing the entire beginning of "The Girl From Ipanema" in Portuguese.</p>
+        </b-col>
+
+        <b-col cols="6">
+          <img src="images/baldNchop.png" alt="Bald Mike Himself" width="100%">
+        </b-col>
+
+      </b-row>
       <p>I'm also a pretty nimble PHP/Laravel and JavaScript/Vue.js web developer who delivers, on time. I'm fluent in Git, and equally comfortable on either "end." I've deployed to AWS and Digital Ocean, and I'd rather SSH than GUI. I've designed, architected, developed, deployed and maintained in PHP, Python, C# and the MEAN stack.</p>
 
       <p>After many years building teams and leading people, it was time for me to shift my focus back to my childhood dream of controlling the robots before they control us. And, for the last two years I've been doing just that. I began this chapter of my life by attending a coding bootcamp, which laid the foundation for a lifetime of learning.</p>
