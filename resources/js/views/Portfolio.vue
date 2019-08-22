@@ -1,118 +1,130 @@
 <template>
-  <div class="container-fluid">
-    
-    <div class="parallax parapic1" id="top">
-      <div class="headline">
-        <p>I'M BALD MIKE.</p>
-        <p>I BUILD WEB APPLICATIONS.</p>
-      </div>
-    </div>
-
-    <div class="credit">
-      <p style="font-size: .6rem;">Photo by Ales Nesetril on Unsplash</p>
-    </div>
-
-    <div class="white-bar" id="nav">
-      <b-row>
-        <b-col cols="12" sm="3">
-          <button class="about button" @click="$bvModal.show('aboutModal')">ABOUT</button>
-        </b-col>
+    <div class="container-fluid">
         
-        <b-col cols="12" sm="3">
-          <button class="projects button" @click="goto('projects')" id="projectsButton">PROJECTS</button>
-        </b-col>
+        <div class="parallax parapic1" id="top">
+            <div class="headline">
+                <p>I'M BALD MIKE.</p>
+                <p>I BUILD WEB APPLICATIONS.</p>
+            </div>
+        </div>
 
-        <b-col cols="12" sm="3">
-          <a href="https://github.com/baldmike" target="_blank"><button id="github-desc" class="github-desc button">GITHUB</button></a>
-        </b-col>
+        <div class="credit">
+            <p style="font-size: .6rem;">Photo by Ales Nesetril on Unsplash</p>
+        </div>
+
+        <div class="white-bar" id="nav">
+            <b-row>
+                <b-col cols="12" sm="3">
+                    <button class="about button" @click="$bvModal.show('aboutModal')">ABOUT</button>
+                </b-col>
+                
+                <b-col cols="12" sm="3">
+                    <button class="projects button" @click="goto('projects')" id="projectsButton">PROJECTS</button>
+                </b-col>
+
+                <b-col cols="12" sm="3">
+                    <a href="https://github.com/baldmike" target="_blank"><button id="github-desc" class="github-desc button">GITHUB</button></a>
+                </b-col>
+                
+                <b-col cols="12" sm="3">
+                    <button class="contact button" @click="goto('contactSection')" id="contact">CONTACT</button>
+                </b-col>
+            </b-row>
+        </div>
         
-        <b-col cols="12" sm="3">
-          <button class="contact button" @click="goto('contactSection')" id="contact">CONTACT</button>
-        </b-col>
-      </b-row>
-    </div>
-    
 
-    <div class="parallax parapic2 nophone"></div>
-  
+        <div class="parallax parapic2 nophone"></div>
+
         <div class="shout" id="projects">
-          <h1>PROJECTS</h1>
+            <h1>PROJECTS</h1>
         </div>
-  
-    
+        <div class="white-bar">
+            <b-row>
+                <b-col cols="12" sm="3">
+                    <button @click="$bvModal.show('rooModal')" id="rooButton" class="roo button"></button>
+                </b-col>
+                
+                <b-col cols="12" sm="3">
+                    <button class="gmap button" @click="$bvModal.show('gmapModal')"></button>
+                </b-col>
+                
+                <b-col cols="12" sm="3">
+                    <button class="regroup button" id="regroupButton" @click="$bvModal.show('regroupModal')"></button>
+                </b-col>
 
-    <div class="white-bar">
-      <b-row>
-        <b-col cols="12" sm="3">
-          <button @click="$bvModal.show('rooModal')" id="rooButton" class="roo button"></button>
-        </b-col>
-        
-        <b-col cols="12" sm="3">
-          <button class="gmap button" @click="$bvModal.show('gmapModal')"></button>
-        </b-col>
-        
-        <b-col cols="12" sm="3">
-          <button class="regroup button" id="regroupButton" @click="$bvModal.show('regroupModal')"></button>
-        </b-col>
-
-        <b-col cols="12" sm="3">
-          <button class="contact button" @click="goto('contactSection')" id="contact">CONTACT</button>
-        </b-col>
-      </b-row>
-    </div>
-
-    <div class="parallax parapic4 nophone" id="testimonySection"></div>
-
-    <div class="credit">
-      <p style="font-size: .6rem;" class="nophone">Photo by Dean Brierley on Unsplash</p>
-    </div>
-
-    <div class="shout">
-          <h1>KIND WORDS</h1>
+                <b-col cols="12" sm="3">
+                    <button class="contact button" @click="goto('contactSection')" id="contact">CONTACT</button>
+                </b-col>
+            </b-row>
         </div>
 
-    <div class="testimony-box">
-      <p>"Mike came along at a time when we were having major website issues, causing many frustrated users to not be able to successfully donate or apply. I was so sick of dealing with people that never responded or could not fix our issues. Mike came swooping in and fixed all of our issues, made our site uber user-friendly, and built a gorgeous, informative brand new webapp."</p>
+        <div class="parallax parapic4 nophone" id="testimonySection"></div>
 
-      <p>Sarah Lauch, Founder, The Live Like Roo Foundation</p>
-    </div>
-    
-    <div class="parallax parapic3 nophone"></div>    
-      <div>
+        <div class="credit">
+            <p style="font-size: .6rem;" class="nophone">Photo by Dean Brierley on Unsplash</p>
+        </div>
+
+        <div class="shout">
+            <h1>KIND WORDS</h1>
+        </div>
+
+        <div class="testimony-box">
+            <p>"Mike came along at a time when we were having major website issues, causing many frustrated users to not be able to successfully donate or apply. I was so sick of dealing with people that never responded or could not fix our issues. Mike came swooping in and fixed all of our issues, made our site uber user-friendly, and built a gorgeous, informative brand new webapp."</p>
+
+            <p>Sarah Lauch, Founder, The Live Like Roo Foundation</p>
+        </div>
+        
+        <div class="parallax parapic3 nophone"></div>    
+        
+        
         <div>
-          <div class="shout">
+            <div class="shout">
             <h1>CONTACT BALD MIKE</h1>
-          </div>
-          
         </div>
-      <div class="white-bar" id="contactSection">    
-      
-      <b-row>
-        <b-col cols="12" sm="3">
-          <a href="mailto:baldmike312@gmail.com"><button class="email button"><img src="/images/icons8-email-96.png"></button></a>
-        </b-col>
-
-        <b-col cols="12" sm="3">
-          <a href="https://www.linkedin.com/in/baldmike/" target="_blank"><button class="contact button"><img src="/images/icons8-linkedin-96.png"></button></a>
-        </b-col>
         
-        <b-col cols="12" sm="3">
-          <a href="https://www.twitter.com/baldmikesays" target="_blank"><button id="twitterButton" class="button"><img src="/images/icons8-twitter-96.png"></button></a>
-        </b-col>
 
-        <b-col cols="12" sm="3">
-          <a href="https://www.github.com/baldmike" target="_blank"><button class="button"><img src="/images/icons8-github-96.png"></button></a>
-        </b-col>      
-      </b-row>
-      </div>
-    </div>
+        <div class="white-bar" id="contactSection">    
+            <b-row>
+                <b-col cols="12" sm="3">
+                    <a href="mailto:baldmike312@gmail.com"><button class="email button"><img src="/images/icons8-email-96.png"></button></a>
+                </b-col>
 
-    <div class="copyright" style="text-align: center">
-      &copy; {{year}}
-      <a href="https://github.com/baldmike" target="_blank">Bald Mike</a>
-    </div>
+                <b-col cols="12" sm="3">
+                    <a href="https://www.linkedin.com/in/baldmike/" target="_blank"><button class="contact button"><img src="/images/icons8-linkedin-96.png"></button></a>
+                </b-col>
+            
+                <b-col cols="12" sm="3">
+                    <a href="https://www.twitter.com/baldmikesays" target="_blank"><button id="twitterButton" class="button"><img src="/images/icons8-twitter-96.png"></button></a>
+                </b-col>
 
-    <a href="https://icons8.com">Icons by Icons8</a>
+                <b-col cols="12" sm="3">
+                    <a href="https://www.github.com/baldmike" target="_blank"><button class="button"><img src="/images/icons8-github-96.png"></button></a>
+                </b-col>      
+            </b-row>
+        </div>
+        </div>
+
+        <b-row class="api-strip">
+            <b-col cols="4">
+                <p>{{ temp }}&deg; {{ weatherData.weather[0].description }}</p>
+            </b-col>
+            <b-col cols="4">
+                <p>{{ theTime }}</P>
+            </b-col>
+            <b-col cols="4">
+                <p>{{ weatherData.name }}</p>
+            </b-col>
+        </b-row>
+
+        <b-row>
+            <b-col cols="4" offset="4">
+                <div class="copyright" style="text-align: center">
+                    &copy; {{year}}
+                    <a href="https://github.com/baldmike" target="_blank">Bald Mike</a>
+                </div>
+            </b-col>
+        </b-row>
+        <!-- <a href="https://icons8.com">Icons by Icons8</a> -->
 
     <!-- Roo Modal -->
     <b-modal id="aboutModal" title="Who is Bald Mike?" hide-footer no-close-on-backdrop>
@@ -206,28 +218,91 @@
 export default {
   name: 'Portfolio',
 
-  data() {
-    return {
-      year: new Date().getFullYear()
-    }
-  }, 
+    data() {
+        return {
+            year: new Date().getFullYear(),
+            weatherData: [],
+            temp: '',
+            lat: '',
+            lon: '',
+            ampm: 'am'
+        }
+    }, 
 
-  methods: {
-    // scrolling
-    goto(value) {
-      let elem = document.getElementById(value);
-      elem.scrollIntoView({behavior: 'smooth'});
+    methods: {
+            // scrolling
+        goto(value) {
+            let elem = document.getElementById(value);
+            elem.scrollIntoView({behavior: 'smooth'});
+        },
+        upTop() {
+            let elem = document.getElementById("top");
+            elem.scrollIntoView({behavior: 'smooth'});
+
+        },
+
+        getWeather(url) {
+            axios.get(url)
+                .then(response => {
+                this.weatherData = response.data;
+                this.temp = Math.floor(((this.weatherData.main.temp) - 273.15) * 9/5 + 32);
+                console.log(response.data);
+            })
+            .catch(error => {
+                console.log(error);
+            });
+        },
+        geolocation() {
+            navigator.geolocation.getCurrentPosition(position => {
+                this.lat = position.coords.latitude;
+                this.lon = position.coords.longitude;
+
+                this.getWeather(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=${this.lat}&lon=${this.lon}&APPID=4184ae2eac1d3a7f63689ed17eb87201`);
+            })
+        },
     },
-    upTop() {
-      let elem = document.getElementById("top");
-      elem.scrollIntoView({behavior: 'smooth'});
 
+    theTime() {
+        let today = new Date();
+        let hour = today.getHours();
+        let minutes = today.getMinutes();
+
+        if (hour > 12) {
+            hour -= 12;
+            this.ampm = 'pm'
+        }
+
+        if (minutes < 10) {
+            minutes = '0' + minutes;
+        }
+
+        let todayNow = hour + ':' + minutes + this.ampm;
+        return todayNow
+    },
+
+    computed: {
+        theTime() {
+            let today = new Date();
+            let hour = today.getHours();
+            let minutes = today.getMinutes();
+
+            if (hour > 12) {
+                hour -= 12;
+                this.ampm = 'pm'
+            }
+
+            if (minutes < 10) {
+                minutes = '0' + minutes;
+            }
+
+            let todayNow = hour + ':' + minutes + this.ampm;
+            return todayNow
+        }
+    },
+
+    created() {
+        this.geolocation();
     }
-  }, 
-
-  created() {
-  
-  }
 }
 </script>
 
@@ -392,5 +467,13 @@ a {
   position: relative;
   bottom: 0;
 }
-  /* } */
+
+.api-strip {
+    text-align: center;
+    margin-top: 20px;
+    color: darkgrey;
+    font-size: 1vw;
+    height: 10vh;
+
+}
 </style>

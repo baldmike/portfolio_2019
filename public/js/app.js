@@ -2398,11 +2398,28 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Portfolio',
   data: function data() {
     return {
-      year: new Date().getFullYear()
+      year: new Date().getFullYear(),
+      weatherData: [],
+      temp: '',
+      lat: '',
+      lon: '',
+      ampm: 'am'
     };
   },
   methods: {
@@ -2418,9 +2435,68 @@ __webpack_require__.r(__webpack_exports__);
       elem.scrollIntoView({
         behavior: 'smooth'
       });
+    },
+    getWeather: function getWeather(url) {
+      var _this = this;
+
+      axios.get(url).then(function (response) {
+        _this.weatherData = response.data;
+        _this.temp = Math.floor((_this.weatherData.main.temp - 273.15) * 9 / 5 + 32);
+        console.log(response.data);
+      }).catch(function (error) {
+        console.log(error);
+      });
+    },
+    geolocation: function geolocation() {
+      var _this2 = this;
+
+      navigator.geolocation.getCurrentPosition(function (position) {
+        _this2.lat = position.coords.latitude;
+        _this2.lon = position.coords.longitude;
+
+        _this2.getWeather("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=".concat(_this2.lat, "&lon=").concat(_this2.lon, "&APPID=4184ae2eac1d3a7f63689ed17eb87201"));
+      });
     }
   },
-  created: function created() {}
+  theTime: function theTime() {
+    var today = new Date();
+    var hour = today.getHours();
+    var minutes = today.getMinutes();
+
+    if (hour > 12) {
+      hour -= 12;
+      this.ampm = 'pm';
+    }
+
+    if (minutes < 10) {
+      minutes = '0' + minutes;
+    }
+
+    var todayNow = hour + ':' + minutes + this.ampm;
+    return todayNow;
+  },
+  computed: {
+    theTime: function theTime() {
+      var today = new Date();
+      var hour = today.getHours();
+      var minutes = today.getMinutes();
+
+      if (hour > 12) {
+        hour -= 12;
+        this.ampm = 'pm';
+      }
+
+      if (minutes < 10) {
+        minutes = '0' + minutes;
+      }
+
+      var todayNow = hour + ':' + minutes + this.ampm;
+      return todayNow;
+    }
+  },
+  created: function created() {
+    this.geolocation();
+  }
 });
 
 /***/ }),
@@ -34030,7 +34106,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n*[data-v-1e3e998e] {\n    font-family: 'Raleway', sans-serif;\n}\n@media only screen and (max-width: 500px) {\n.nophone[data-v-1e3e998e] {\n      display: none;\n      background: black;\n}\n}\n\n  /* @media only screen and (min-width: 500px) { */\n.about[data-v-1e3e998e]:hover::after { \n    content: \" - Who is Bald Mike?\";\n}\n#projectsButton[data-v-1e3e998e]:hover::after { \n    content: \" - Examples of recent work.\";\n}\n#github-desc[data-v-1e3e998e]:hover::after { \n    content: \" - Show me the code!\";\n}\n#contact[data-v-1e3e998e]:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n}\nh3[data-v-1e3e998e] {\n  margin: 40px 0 0;\n}\nul[data-v-1e3e998e] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-1e3e998e] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-1e3e998e] {\n  color: #42b983;\n}\n.parallax[data-v-1e3e998e] {\n  margin-top: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-1e3e998e] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-1e3e998e] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-1e3e998e] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.parapic4[data-v-1e3e998e] {\n  background-image: url(\"/images/circuits.jpg\");\n  -webkit-filter: blur(1px);\n          filter: blur(1px);\n}\n.white-bar[data-v-1e3e998e] { \n  background-color: white;\n  text-align: center;\n}\n.button[data-v-1e3e998e] {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: black;\n  color: cornflowerblue;\n  transition: 800ms;\n  outline: none;\n}\n.button[data-v-1e3e998e]:hover {\n  color: black;\n  background-color: white;\n  width: 200px;\n  height: 200px;\n  border-radius: 10px;\n  transition: 800ms;\n}\n.regroup[data-v-1e3e998e] {\n  background-image: url(\"/images/regroup.png\");\n}\n.regroup[data-v-1e3e998e]:hover:after {\n  background-image: url('');\n  background-color: white;\n}\n.roo[data-v-1e3e998e] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-1e3e998e] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-1e3e998e] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-1e3e998e] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-1e3e998e;\n          animation-name: slide-data-v-1e3e998e;\n  -webkit-animation-duration: 3s;\n          animation-duration: 3s;\n}\n@-webkit-keyframes slide-data-v-1e3e998e {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n@keyframes slide-data-v-1e3e998e {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n.shout[data-v-1e3e998e] {\n  margin-top: 40px;\n}\n.copyright[data-v-1e3e998e] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.testimony-box[data-v-1e3e998e] {\n  margin: 20px;\n  font-size: 1.4rem;\n}\n.credit[data-v-1e3e998e] {\n  position: relative;\n  bottom: 0;\n}\n  /* } */\n", ""]);
+exports.push([module.i, "\n*[data-v-1e3e998e] {\n    font-family: 'Raleway', sans-serif;\n}\n@media only screen and (max-width: 500px) {\n.nophone[data-v-1e3e998e] {\n      display: none;\n      background: black;\n}\n}\n\n  /* @media only screen and (min-width: 500px) { */\n.about[data-v-1e3e998e]:hover::after { \n    content: \" - Who is Bald Mike?\";\n}\n#projectsButton[data-v-1e3e998e]:hover::after { \n    content: \" - Examples of recent work.\";\n}\n#github-desc[data-v-1e3e998e]:hover::after { \n    content: \" - Show me the code!\";\n}\n#contact[data-v-1e3e998e]:hover::after { \n    content: \" - Get in touch with Bald Mike!\";\n}\nh3[data-v-1e3e998e] {\n  margin: 40px 0 0;\n}\nul[data-v-1e3e998e] {\n  list-style-type: none;\n  padding: 0;\n}\nli[data-v-1e3e998e] {\n  display: inline-block;\n  margin: 0 10px;\n}\na[data-v-1e3e998e] {\n  color: #42b983;\n}\n.parallax[data-v-1e3e998e] {\n  margin-top: 50px;\n  background-size: cover;\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  min-height: 100vh;\n}\n.parapic1[data-v-1e3e998e] {\n  background-image: url(\"/images/Photo_by_Ales_Nesetril_on_Unsplash.jpg\");\n  margin-top: -60px;\n  height: auto;\n  max-width: 100%;\n}\n.parapic2[data-v-1e3e998e] {\n  background-image: url(\"/images/logos.png\");\n}\n.parapic3[data-v-1e3e998e] {\n  background-image: url(\"/images/codeBM2.jpg\");\n}\n.parapic4[data-v-1e3e998e] {\n  background-image: url(\"/images/circuits.jpg\");\n  -webkit-filter: blur(1px);\n          filter: blur(1px);\n}\n.white-bar[data-v-1e3e998e] { \n  background-color: white;\n  text-align: center;\n}\n.button[data-v-1e3e998e] {\n  width: 200px;\n  height: 200px;\n  border-radius: 50%;\n  margin: 20px 0px;\n  background-size: 200px;\n  background-repeat: no-repeat;\n  background-color: black;\n  color: cornflowerblue;\n  transition: 800ms;\n  outline: none;\n}\n.button[data-v-1e3e998e]:hover {\n  color: black;\n  background-color: white;\n  width: 200px;\n  height: 200px;\n  border-radius: 10px;\n  transition: 800ms;\n}\n.regroup[data-v-1e3e998e] {\n  background-image: url(\"/images/regroup.png\");\n}\n.regroup[data-v-1e3e998e]:hover:after {\n  background-image: url('');\n  background-color: white;\n}\n.roo[data-v-1e3e998e] {\n  background-image: url(\"/images/llr_logo.png\");\n}\n.gmap[data-v-1e3e998e] {\n  background-image: url(\"/images/gmaps.png\");\n}\n.github[data-v-1e3e998e] {\n  background-image: url(\"/images/github.jpg\");\n}\n.headline[data-v-1e3e998e] {\n  position: -webkit-sticky;\n  position: sticky;\n  text-align: center;\n  font-size: 3vw;\n  top: 180px;\n  color: white;\n  -webkit-animation-name: slide-data-v-1e3e998e;\n          animation-name: slide-data-v-1e3e998e;\n  -webkit-animation-duration: 3s;\n          animation-duration: 3s;\n}\n@-webkit-keyframes slide-data-v-1e3e998e {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n@keyframes slide-data-v-1e3e998e {\nfrom {top: 800px;}\nto {top: 180px;}\n}\n.shout[data-v-1e3e998e] {\n  margin-top: 40px;\n}\n.copyright[data-v-1e3e998e] {\n  position: relative;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.testimony-box[data-v-1e3e998e] {\n  margin: 20px;\n  font-size: 1.4rem;\n}\n.credit[data-v-1e3e998e] {\n  position: relative;\n  bottom: 0;\n}\n.api-strip[data-v-1e3e998e] {\n    text-align: center;\n    margin-top: 20px;\n    color: darkgrey;\n    font-size: 1vw;\n    height: 10vh;\n}\n", ""]);
 
 // exports
 
@@ -66893,23 +66969,62 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c(
-        "div",
-        { staticClass: "copyright", staticStyle: { "text-align": "center" } },
+        "b-row",
+        { staticClass: "api-strip" },
         [
-          _vm._v("\n      © " + _vm._s(_vm.year) + "\n      "),
-          _c(
-            "a",
-            {
-              attrs: { href: "https://github.com/baldmike", target: "_blank" }
-            },
-            [_vm._v("Bald Mike")]
-          )
-        ]
+          _c("b-col", { attrs: { cols: "4" } }, [
+            _c("p", [
+              _vm._v(
+                _vm._s(_vm.temp) +
+                  "° " +
+                  _vm._s(_vm.weatherData.weather[0].description)
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("b-col", { attrs: { cols: "4" } }, [
+            _c("p", [_vm._v(_vm._s(_vm.theTime))])
+          ]),
+          _vm._v(" "),
+          _c("b-col", { attrs: { cols: "4" } }, [
+            _c("p", [_vm._v(_vm._s(_vm.weatherData.name))])
+          ])
+        ],
+        1
       ),
       _vm._v(" "),
-      _c("a", { attrs: { href: "https://icons8.com" } }, [
-        _vm._v("Icons by Icons8")
-      ]),
+      _c(
+        "b-row",
+        [
+          _c("b-col", { attrs: { cols: "4", offset: "4" } }, [
+            _c(
+              "div",
+              {
+                staticClass: "copyright",
+                staticStyle: { "text-align": "center" }
+              },
+              [
+                _vm._v(
+                  "\n                    © " +
+                    _vm._s(_vm.year) +
+                    "\n                    "
+                ),
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://github.com/baldmike",
+                      target: "_blank"
+                    }
+                  },
+                  [_vm._v("Bald Mike")]
+                )
+              ]
+            )
+          ])
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
         "b-modal",
@@ -67238,10 +67353,8 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("div", { staticClass: "shout" }, [
-        _c("h1", [_vm._v("CONTACT BALD MIKE")])
-      ])
+    return _c("div", { staticClass: "shout" }, [
+      _c("h1", [_vm._v("CONTACT BALD MIKE")])
     ])
   }
 ]
