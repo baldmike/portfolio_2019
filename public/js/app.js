@@ -67175,9 +67175,9 @@ var staticRenderFns = [
       { staticClass: "parallax parapic1", attrs: { id: "top" } },
       [
         _c("div", { staticClass: "headline" }, [
-          _c("p", [_vm._v("BALD MIKE")]),
+          _c("p", [_vm._v("I'M BALD MIKE.")]),
           _vm._v(" "),
-          _c("p", [_vm._v("I BUILD WEB APPLICATIONS")])
+          _c("p", [_vm._v("I BUILD WEB APPLICATIONS.")])
         ])
       ]
     )

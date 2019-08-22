@@ -3,8 +3,8 @@
     
     <div class="parallax parapic1" id="top">
       <div class="headline">
-        <p>BALD MIKE</p>
-        <p>I BUILD WEB APPLICATIONS</p>
+        <p>I'M BALD MIKE.</p>
+        <p>I BUILD WEB APPLICATIONS.</p>
       </div>
     </div>
 
