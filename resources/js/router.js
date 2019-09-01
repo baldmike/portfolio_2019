@@ -4,6 +4,7 @@ import MainApp from './MainApp'
 import Portfolio from './views/Portfolio.vue'
 import CrapsView from './views/CrapsView'
 import Resqmia from './views/Resqmia'
+import CreateAnimal from './views/CreateAnimal'
 
 
 export const router = new VueRouter({ 
@@ -29,6 +30,11 @@ export const router = new VueRouter({
                 {
                     path: '/resqmia',
                     component: Resqmia,
+
+                },
+                {
+                    path: '/create',
+                    component: CreateAnimal,
 
                 },
                
