@@ -371,7 +371,7 @@ a {
 .parapic4 {
   background-image: url("/images/circuits.jpg");
   
-  filter: blur(1px) grayscale(100%);
+  filter: blur(1px) saturate(6);
 }
 
 
