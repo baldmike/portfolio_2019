@@ -52,8 +52,8 @@
                     <button class="regroup button" id="regroupButton" @click="$bvModal.show('regroupModal')"></button>
                 </b-col>
 
-                <b-col cols="12" sm="3">
-                    <button class="contact button" @click="goto('contactSection')" id="contact">CONTACT</button>
+                <b-col cols="6" sm="3">
+                  <b-button class="button"><router-link to="/resqmia">resQmia</router-link></b-button>
                 </b-col>
             </b-row>
         </div>
@@ -106,7 +106,7 @@
 
         <b-row class="api-strip">
             <b-col cols="4">
-                <p>{{ temp }}&deg; {{ weatherData.weather[0].description }}</p>
+                <p>{{ temp }}&deg;</p>
             </b-col>
             <b-col cols="4">
                 <p>{{ theTime }}</P>
@@ -126,7 +126,7 @@
         </b-row>
         <!-- <a href="https://icons8.com">Icons by Icons8</a> -->
 
-    <!-- Roo Modal -->
+    <!-- About Modal -->
     <b-modal id="aboutModal" title="Who is Bald Mike?" hide-footer no-close-on-backdrop>
       <b-row>
       
@@ -163,7 +163,9 @@
       <p>The dashboard is built using Laravel Nova, and deployed using Laravel Forge on Digital Ocean. The code privately resides on Github, but I'm happy to share it (and a glimpse of the dashboard) in person to inquiring minds.</p>
 
       <div>
-        <a href="https://livelikeroo.org" target="_blank"><button class="my-3">Visit https://livelikeroo.org</button></a>
+        <b-col cols="6" offset="3">
+        <b-button class="button"><a href="https://livelikeroo.org">Live Like Roo</a></b-button>
+      </b-col>
       </div>
     </b-modal>
 
@@ -173,7 +175,9 @@
       
       <p>Using Agile methodology, I was contracted to assist the Lead with the completion of building, testing and deployment of regroupconnect, a hipaa-compliant tele-psychiatry platform built with Laravel and Vue.js and deployed on EC2 & S3.</p>
 
-      <a href="https://www.regroupconnect.com" target="_blank"><button class="my-3">Visit RegroupConnect</button></a>
+      <b-col cols="6" offset="3">
+        <b-button class="button"><a href="https://www.regroupconnect.com">RegroupConnect</a></b-button>
+      </b-col>
     </b-modal>
 
     <!-- Projects Modal -->
@@ -257,28 +261,14 @@ export default {
                 this.lat = position.coords.latitude;
                 this.lon = position.coords.longitude;
 
+                // this.$store.dispatch('getWeather')
+
                 this.getWeather(`https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat=${this.lat}&lon=${this.lon}&APPID=4184ae2eac1d3a7f63689ed17eb87201`);
             })
         },
     },
 
-    theTime() {
-        let today = new Date();
-        let hour = today.getHours();
-        let minutes = today.getMinutes();
-
-        if (hour > 12) {
-            hour -= 12;
-            this.ampm = 'pm'
-        }
-
-        if (minutes < 10) {
-            minutes = '0' + minutes;
-        }
-
-        let todayNow = hour + ':' + minutes + this.ampm;
-        return todayNow
-    },
+    
 
     computed: {
         theTime() {
@@ -301,7 +291,7 @@ export default {
     },
 
     created() {
-        this.geolocation();
+        // this.geolocation();
     }
 }
 </script>
@@ -380,7 +370,8 @@ a {
 
 .parapic4 {
   background-image: url("/images/circuits.jpg");
-  filter: blur(1px);
+  
+  filter: blur(1px) grayscale(100%);
 }
 
 
