@@ -34,7 +34,7 @@
         
 
         <div class="parallax parapic2 nophone"></div>
-
+        
         <div class="shout" id="projects">
             <h1>PROJECTS</h1>
         </div>
@@ -58,7 +58,10 @@
             </b-row>
         </div>
 
-        <div class="parallax parapic4 nophone" id="testimonySection"></div>
+        
+        <div class="parallax parapic4 nophone" id="testimonySection">
+            <p class="box-story">The most certain way to succeed is always to try just one more time.<small style="font-size: 1rem;">- Thomas Edison</small></p>
+        </div>
 
         <div class="credit">
             <p style="font-size: .6rem;" class="nophone">Photo by Dean Brierley on Unsplash</p>
@@ -372,7 +375,7 @@ a {
 .parapic4 {
   background-image: url("/images/circuits.jpg");
   
-  filter: blur(1px) saturate(6);
+  filter: blur(1.2px) saturate(6);
 }
 
 
@@ -467,5 +470,13 @@ a {
     font-size: 1vw;
     height: 10vh;
 
+}
+
+.box-story {
+    position: sticky;
+    top: 300px;
+    color: white;
+    font-size: 7vw;
+    text-align: center;
 }
 </style>
