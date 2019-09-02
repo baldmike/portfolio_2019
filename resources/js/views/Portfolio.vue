@@ -254,7 +254,6 @@ export default {
                 .then(response => {
                 this.weatherData = response.data;
                 this.temp = Math.floor(((this.weatherData.main.temp) - 273.15) * 9/5 + 32);
-                console.log(response.data);
             })
             .catch(error => {
                 console.log(error);
