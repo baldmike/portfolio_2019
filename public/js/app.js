@@ -2710,6 +2710,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Portfolio',
   data: function data() {
@@ -70589,23 +70590,30 @@ var render = function() {
                 })
               ]),
               _vm._v(" "),
-              _c(
-                "b-col",
-                { attrs: { cols: "6", sm: "3" } },
-                [
-                  _c(
-                    "b-button",
-                    { staticClass: "button" },
-                    [
-                      _c("router-link", { attrs: { to: "/resqmia" } }, [
-                        _vm._v("resQmia")
-                      ])
-                    ],
-                    1
-                  )
-                ],
-                1
-              )
+              _c("b-col", { attrs: { cols: "6", sm: "3" } }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "button",
+                    on: {
+                      click: function($event) {
+                        return _vm.$bvModal.show("resqmiaModal")
+                      }
+                    }
+                  },
+                  [
+                    _vm._v("res"),
+                    _c(
+                      "span",
+                      {
+                        staticStyle: { color: "hotpink", "font-size": "2rem" }
+                      },
+                      [_vm._v("Q")]
+                    ),
+                    _vm._v("mia")
+                  ]
+                )
+              ])
             ],
             1
           )
@@ -70965,25 +70973,6 @@ var render = function() {
           _vm._v(" "),
           _c("hr"),
           _vm._v(" "),
-          _c(
-            "b-col",
-            { attrs: { cols: "6", offset: "3" } },
-            [
-              _c("b-button", { staticClass: "button" }, [
-                _c("a", { attrs: { href: "https://resqmia.com/animals" } }, [
-                  _vm._v("resQmia")
-                ])
-              ])
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("p", [
-            _vm._v(
-              "\n        resQmia! Built to replace several spreadsheets, resQmia is a simple notebook or \"post-it\" style application used to track cats and dogs' vaccines and brief medical history as they're under the supervision of Mia Lindner, director of Operations for Alive Rescue in Chicago. Built with Laravel/Vue using Laravel's Passport OAuth implementation to securely couple the back end with the client using token-based authentication. Tech: PHP/Laravel, JavaScript/Vue.js, Vuex, Vue-router, Bootstrap-vue, Axios HTTP library deployed on Digital Ocean with Laravel Forge.\n      "
-            )
-          ]),
-          _vm._v(" "),
           _c("hr"),
           _vm._v(" "),
           _c(
@@ -71007,6 +70996,44 @@ var render = function() {
           _c("p", [
             _vm._v(
               'A craps game in Vue.js. User can make a "pass line" wager of $5, $25, $50, $100, and starts game with $500. App uses Vuex for state management so there is a single source of truth. Clicking button above will open a new window with a demo.'
+            )
+          ])
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "b-modal",
+        {
+          attrs: {
+            id: "resqmiaModal",
+            title: "resQmia",
+            "hide-footer": "",
+            "no-close-on-backdrop": ""
+          }
+        },
+        [
+          _c(
+            "b-col",
+            { attrs: { cols: "6", offset: "3" } },
+            [
+              _c(
+                "b-button",
+                { staticClass: "button" },
+                [
+                  _c("router-link", { attrs: { to: "/resqmia" } }, [
+                    _vm._v("resQmia")
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("p", [
+            _vm._v(
+              "\n            resQmia! Built to replace several spreadsheets, resQmia is a simple notebook or \"post-it\" style application used to track cats and dogs' vaccines and brief medical history as they're under the supervision of Mia Lindner, director of Operations for Alive Rescue in Chicago. Built with Laravel/Vue using Laravel's Passport OAuth implementation to securely couple the back end with the client using token-based authentication. Tech: PHP/Laravel, JavaScript/Vue.js, Vuex, Vue-router, Bootstrap-vue, Axios HTTP library deployed on Digital Ocean with Laravel Forge.\n        "
             )
           ])
         ],

@@ -53,7 +53,7 @@
                 </b-col>
 
                 <b-col cols="6" sm="3">
-                  <b-button class="button"><router-link to="/resqmia">resQmia</router-link></b-button>
+                    <button class="button" @click="$bvModal.show('resqmiaModal')">res<span style="color: hotpink; font-size: 2rem;">Q</span>mia</button>
                 </b-col>
             </b-row>
         </div>
@@ -190,13 +190,6 @@
       </b-col>
       <p>Given a .xlsx file, place all 1500 properties on Google Map. Markers should be a gradient of green to red, based on estimated home value, low to high. Filters are all fully reactive. Clicking button above will open a new window with a demo.</p> 
       <hr>
-
-      <b-col cols="6" offset="3">
-        <b-button class="button"><a href="https://resqmia.com/animals">resQmia</a></b-button>
-      </b-col>
-      <p>
-        resQmia! Built to replace several spreadsheets, resQmia is a simple notebook or "post-it" style application used to track cats and dogs' vaccines and brief medical history as they're under the supervision of Mia Lindner, director of Operations for Alive Rescue in Chicago. Built with Laravel/Vue using Laravel's Passport OAuth implementation to securely couple the back end with the client using token-based authentication. Tech: PHP/Laravel, JavaScript/Vue.js, Vuex, Vue-router, Bootstrap-vue, Axios HTTP library deployed on Digital Ocean with Laravel Forge.
-      </p>
       
       <hr>
 
@@ -209,9 +202,17 @@
       
     </b-modal>
 
+    <b-modal id="resqmiaModal" title="resQmia" hide-footer no-close-on-backdrop>
+        <b-col cols="6" offset="3">
+            <b-button class="button"><router-link to="/resqmia">resQmia</router-link></b-button>
+        </b-col>
+        <p>
+            resQmia! Built to replace several spreadsheets, resQmia is a simple notebook or "post-it" style application used to track cats and dogs' vaccines and brief medical history as they're under the supervision of Mia Lindner, director of Operations for Alive Rescue in Chicago. Built with Laravel/Vue using Laravel's Passport OAuth implementation to securely couple the back end with the client using token-based authentication. Tech: PHP/Laravel, JavaScript/Vue.js, Vuex, Vue-router, Bootstrap-vue, Axios HTTP library deployed on Digital Ocean with Laravel Forge.
+        </p>
+    </b-modal>
     <!-- email Modal -->
     <b-modal id="emailModal" title="Email Bald Mike" hide-footer no-close-on-backdrop>
-      <p class="my-4"></p>
+        <p class="my-4"></p>
     </b-modal>
 
 </div>  
