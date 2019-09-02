@@ -71129,6 +71129,8 @@ var render = function() {
       _c(
         "b-row",
         [
+          _c("h1", [_vm._v("DEMO")]),
+          _vm._v(" "),
           _c(
             "b-col",
             { attrs: { cols: "12", md: "4" } },
@@ -71612,11 +71614,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        {
-                          staticClass: "btn",
-                          attrs: { variant: "success" },
-                          on: { click: _vm.updateAnimal }
-                        },
+                        { staticClass: "btn", attrs: { variant: "success" } },
                         [_vm._v("Save")]
                       )
                     ],
@@ -71628,11 +71626,7 @@ var render = function() {
                     [
                       _c(
                         "b-button",
-                        {
-                          staticClass: "btn",
-                          attrs: { variant: "danger" },
-                          on: { click: _vm.deleteAnimal }
-                        },
+                        { staticClass: "btn", attrs: { variant: "danger" } },
                         [_vm._v("DELETE")]
                       )
                     ],

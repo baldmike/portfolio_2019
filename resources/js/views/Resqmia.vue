@@ -1,6 +1,6 @@
 <template>
     <div class="body">
-        <b-row>
+        <b-row><h1>DEMO</h1>
             <b-col cols="12" md="4">
                 <b-row>
                     <b-form-checkbox class="ml-auto mr-auto" v-model="filterDogs">Dogs</b-form-checkbox>
@@ -134,10 +134,10 @@
 
                 <b-row style="text-align: center;" class="button-row">
                     <b-col>
-                        <b-button class="btn" @click='updateAnimal' variant="success">Save</b-button>
+                        <b-button class="btn" variant="success">Save</b-button>
                     </b-col>
                     <b-col>
-                        <b-button class="btn" @click='deleteAnimal' variant="danger">DELETE</b-button>
+                        <b-button class="btn" variant="danger">DELETE</b-button>
                     </b-col>
 
                     <b-col>
@@ -703,8 +703,6 @@
                 })
 
                 this.hideModal();
-
-
                 
             },
 
