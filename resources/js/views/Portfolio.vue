@@ -295,7 +295,7 @@ export default {
     },
 
     created() {
-        // this.geolocation();
+        this.geolocation();
     }
 }
 </script>
