@@ -3287,6 +3287,10 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -37523,7 +37527,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.body[data-v-7dc87705] {\n    padding: 20px;\n}\n.btn[data-v-7dc87705] {\n    text-align: center;\n    width: 100%;\n}\n.center[data-v-7dc87705] {\n    text-align: center;\n}\n.search-bar[data-v-7dc87705] {\n    width: 100%;\n    text-align: center;\n}\n.select-button[data-v-7dc87705] {\n    width: 100%;\n    height: 3rem;\n    margin-bottom: 20px;\n    font-size: .9rem;\n    color: white;\n}\n.filter-button[data-v-7dc87705] {\n    width: 24%;\n}\n.animal-card[data-v-7dc87705] {\n    margin-bottom: 20px;\n    padding: .6rem;\n}\n.card-img[data-v-7dc87705] {\n    height: 12rem;\n}\n#printout[data-v-7dc87705] {\n    display: none;\n}\n.headline[data-v-7dc87705] {\n    text-align: center;\n}\nli[data-v-7dc87705] {\n    padding: 10px;\n    border-bottom: 1px solid black;\n}\n.button-row[data-v-7dc87705] {\n    margin-top: 100px;\n    text-align: center;\n}\n.input[data-v-7dc87705] {\n    margin: 10px;\n}\n@media print {\n.box[data-v-7dc87705] {\n       border-bottom: 5px solid black;\n}\n}\n", ""]);
+exports.push([module.i, "\n.body[data-v-7dc87705] {\n    padding: 20px;\n    text-align: center;\n}\n.btn[data-v-7dc87705] {\n    text-align: center;\n    width: 100%;\n}\n.center[data-v-7dc87705] {\n    text-align: center;\n}\n.search-bar[data-v-7dc87705] {\n    width: 100%;\n    text-align: center;\n}\n.select-button[data-v-7dc87705] {\n    width: 100%;\n    height: 3rem;\n    margin-bottom: 20px;\n    font-size: .9rem;\n    color: white;\n}\n.filter-button[data-v-7dc87705] {\n    width: 24%;\n}\n.animal-card[data-v-7dc87705] {\n    margin-bottom: 20px;\n    padding: .6rem;\n}\n.card-img[data-v-7dc87705] {\n    height: 12rem;\n}\n#printout[data-v-7dc87705] {\n    display: none;\n}\n.headline[data-v-7dc87705] {\n    text-align: center;\n}\nli[data-v-7dc87705] {\n    padding: 10px;\n    border-bottom: 1px solid black;\n}\n.button-row[data-v-7dc87705] {\n    margin-top: 100px;\n    text-align: center;\n}\n.input[data-v-7dc87705] {\n    margin: 10px;\n}\n@media print {\n.box[data-v-7dc87705] {\n       border-bottom: 5px solid black;\n}\n}\n", ""]);
 
 // exports
 
@@ -71159,7 +71163,17 @@ var render = function() {
     "div",
     { staticClass: "body" },
     [
-      _c("b-row", [_c("b-col", [_c("h1", [_vm._v("DEMO")])])], 1),
+      _c(
+        "b-row",
+        [
+          _c("b-col", [_c("h1", [_vm._v("DEMO")])]),
+          _vm._v(" "),
+          _c("b-col", [
+            _c("h1", [_c("a", { attrs: { href: "/" } }, [_vm._v("BACK")])])
+          ])
+        ],
+        1
+      ),
       _vm._v(" "),
       _c(
         "b-row",

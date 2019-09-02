@@ -3,8 +3,12 @@
         <b-row>
             <b-col>
                 <h1>DEMO</h1>
-            </b-col>
-            
+            </b-col>   
+            <b-col>
+                <h1>
+                    <a href="/">BACK</a>
+                </h1>
+            </b-col>         
         </b-row>
         <b-row>
             <b-col cols="12" md="4">
@@ -758,6 +762,7 @@
 
     .body {
         padding: 20px;
+        text-align: center;
     }
     .btn {
         text-align: center;
