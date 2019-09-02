@@ -1,6 +1,12 @@
 <template>
     <div class="body">
-        <b-row><h1>DEMO</h1>
+        <b-row>
+            <b-col>
+                <h1>DEMO</h1>
+            </b-col>
+            
+        </b-row>
+        <b-row>
             <b-col cols="12" md="4">
                 <b-row>
                     <b-form-checkbox class="ml-auto mr-auto" v-model="filterDogs">Dogs</b-form-checkbox>

@@ -3280,6 +3280,12 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 
 
@@ -71126,11 +71132,11 @@ var render = function() {
     "div",
     { staticClass: "body" },
     [
+      _c("b-row", [_c("b-col", [_c("h1", [_vm._v("DEMO")])])], 1),
+      _vm._v(" "),
       _c(
         "b-row",
         [
-          _c("h1", [_vm._v("DEMO")]),
-          _vm._v(" "),
           _c(
             "b-col",
             { attrs: { cols: "12", md: "4" } },
